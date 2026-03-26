@@ -10,3 +10,7 @@
     @apply antialiased;
   }
 }
+
+.title {
+ background-image: url(../src/assets/images/desktop/lisbon-guide-torre-belem-1.avif);
+}

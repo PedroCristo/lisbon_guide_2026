@@ -19,7 +19,7 @@ const Home = () => {
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1513735539099-cf6e5d559d82?auto=format&fit=crop&q=80&w=2000"
+            src="../src/assets/images/desktop/lisbon-guide-torre-belem-1.avif"
             alt="Lisbon View"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

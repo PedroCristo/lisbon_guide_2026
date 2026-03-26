@@ -12,10 +12,10 @@
       "pt": "Uma fortificação do século XVI localizada em Lisboa que serviu como ponto de embarque e desembarque para os exploradores portugueses."
     },
     "fullDescription": {
-      "en": "The Belém Tower, or the Tower of Saint Vincent, is a 16th-century fortification located in Lisbon that served as a point of embarkation and disembarkation for Portuguese explorers and as a ceremonial gateway to Lisbon. It was built during the height of the Portuguese Renaissance and is a prominent example of the Portuguese Manueline style, but it also incorporates hints of other architectural styles. The structure was built from lioz limestone and is composed of a bastion and a 30-meter (98.4 ft), four-story tower.",
+      "en": "Built in 1515 as a fortress to guard the entrance to Lisbon's harbor, the Belem Tower was the starting point for many of the voyages of discovery, and for the sailors it was the last sight of their homeland. It's a monument to Portugal's Age of Discovery, often serving as a symbol of the country, and UNESCO has listed it as a World Heritage monument.",
       "pt": "A Torre de Belém, ou Torre de São Vicente, é uma fortificação do século XVI localizada em Lisboa que serviu como ponto de embarque e desembarque para os exploradores portugueses e como porta cerimonial de Lisboa. Foi construída durante o auge do Renascimento português e é um exemplo proeminente do estilo manuelino português, mas também incorpora toques de outros estilos arquitetónicos. A estrutura foi construída em calcário lioz e é composta por um baluarte e uma torre de quatro andares com 30 metros de altura."
     },
-    "image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?auto=format&fit=crop&q=80&w=1000",
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -39,10 +39,10 @@
       "en": "The Jerónimos Monastery or Hieronymites Monastery is a former monastery of the Order of Saint Jerome near the Tagus river in the parish of Belém, in the Lisbon Municipality, Portugal. It was secularised on 28 December 1833 by state decree and its ownership transferred to the charitable institution, Real Casa Pia de Lisboa. The monastery is one of the most prominent examples of the Portuguese Late Gothic Manueline style of architecture in Lisbon. It was classified a UNESCO World Heritage Site, along with the nearby Tower of Belém, in 1983.",
       "pt": "O Mosteiro dos Jerónimos é um antigo mosteiro da Ordem de São Jerónimo junto ao rio Tejo, na freguesia de Belém, no concelho de Lisboa, Portugal. Foi secularizado em 28 de dezembro de 1833 por decreto estatal e a sua propriedade transferida para a instituição de caridade Real Casa Pia de Lisboa. O mosteiro é um dos exemplos mais proeminentes do estilo arquitetónico manuelino gótico tardio português em Lisboa. Foi classificado como Património Mundial da UNESCO, juntamente com a vizinha Torre de Belém, em 1983."
     },
-    "image": "https://images.unsplash.com/photo-1590075865003-e4829d59f99c?auto=format&fit=crop&q=80&w=1000",
+    "image": "../src/assets/images/desktop/lisbon-guide-jeronimos-monestery-3.jpg",
     "category": {
-      "en": "Religious",
-      "pt": "Religioso"
+      "en": "Monument",
+      "pt": "Monumento"
     },
     "address": "Praça do Império 1400-206 Lisboa",
     "phone": "+351 21 362 0034"
@@ -63,13 +63,123 @@
       "en": "Alfama is the oldest district of Lisbon, spreading on the slope between the São Jorge Castle and the Tagus river. Its name comes from the Arabic Al-hamma, meaning 'hot fountains' or 'baths'. The district includes many important historical attractions, as well as many Fado bars and restaurants. During the Moorish domination, Alfama constituted the whole of the city, which later spread to the West (Baixa neighborhood). Alfama became inhabited by fishermen and the poor, and its condition as a neighborhood for the poor continues to this day.",
       "pt": "Alfama é o bairro mais antigo de Lisboa, espalhando-se na encosta entre o Castelo de São Jorge e o rio Tejo. O seu nome provém do árabe Al-hamma, que significa 'fontes termais' ou 'banhos'. O bairro inclui muitas atrações históricas importantes, bem como muitos bares e restaurantes de Fado. Durante o domínio mouro, Alfama constituía a totalidade da cidade, que mais tarde se estendeu para o Oeste (bairro da Baixa). Alfama passou a ser habitada por pescadores e pobres, e a sua condição de bairro para pobres mantém-se até aos dias de hoje."
     },
-    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&q=80&w=1000",
+    "image": "../src/assets/images/desktop/lisbon-guide-alfama-distrit-4.jpg",
     "category": {
       "en": "Neighborhood",
       "pt": "Bairro"
     },
     "address": "Alfama, 1100-410 Lisboa",
     "phone": "N/A"
+  },
+   {
+    "id": "bairro-alto",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Bairro Alto", "pt": "Bairro Alto" },
+    "shortDescription": { "en": "Historic district with nightlife and viewpoints.", "pt": "Bairro histórico conhecido pela vida noturna e miradouros." },
+    "fullDescription": { "en": "Bairro Alto is one of Lisbon's most iconic neighborhoods, famous for its narrow streets, vibrant nightlife, and panoramic viewpoints.", "pt": "O Bairro Alto é um dos bairros mais icónicos de Lisboa, famoso pelas suas ruas estreitas, vida noturna vibrante e miradouros panorâmicos." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Neighborhood", "pt": "Bairro" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "miradouro-sao-pedro-alcantara",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Miradouro de São Pedro de Alcântara", "pt": "Miradouro de São Pedro de Alcântara" },
+    "shortDescription": { "en": "Scenic viewpoint overlooking the city.", "pt": "Miradouro com vista panorâmica sobre a cidade." },
+    "fullDescription": { "en": "A beautiful terrace offering panoramic views of Lisbon, including the castle and downtown.", "pt": "Um miradouro encantador que oferece vistas panorâmicas de Lisboa, incluindo o castelo e o centro histórico." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Viewpoint", "pt": "Miradouro" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "carmo-convent",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Carmo Convent", "pt": "Convento do Carmo" },
+    "shortDescription": { "en": "Ruins of a medieval convent destroyed in the 1755 earthquake.", 
+                           "pt": "Ruínas de um convento medieval destruído no terremoto de 1755." },
+    "fullDescription": { "en": "The ruins of this gothic church are evocative reminders of the devastation left by the 1755 earthquake. At the time of the earthquake, it was the largest church in Lisbon, but today the roofless nave open to the sky is all that remains of the arches and rubble that caved in on the congregation as they were attending mass.", 
+                          "pt": "As ruínas desta igreja gótica são lembranças evocativas da devastação deixada pelo terremoto de 1755. Na época do terremoto, era a maior igreja de Lisboa, mas hoje a nave sem teto, aberta ao céu, é tudo o que resta dos arcos e dos escombros que desabaram sobre a congregação enquanto assistia à missa." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Historic Site", "pt": "Sítio Histórico" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "camoes-square",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Camões Square", "pt": "Praça Luís de Camões" },
+    "shortDescription": { "en": "Popular square in the Chiado district.", "pt": "Praça popular no bairro do Chiado." },
+    "fullDescription": { "en": "Camões Square is a lively square in Lisbon's Chiado neighborhood, surrounded by shops, cafes, and cultural spots.", "pt": "A Praça Luís de Camões é uma praça animada no bairro do Chiado, rodeada por lojas, cafés e espaços culturais." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Square", "pt": "Praça" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "chiado-street",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Chiado Street", "pt": "Rua do Chiado" },
+    "shortDescription": { "en": "Famous shopping and cultural street.", "pt": "Rua famosa pelas compras e cultura." },
+    "fullDescription": { "en": "Chiado Street connects the historic areas of Lisbon, lined with shops, cafes, and theaters.", "pt": "A Rua do Chiado liga áreas históricas de Lisboa, ladeada por lojas, cafés e teatros." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Street", "pt": "Rua" },
+    "address": "",
+    "phone": ""
+  },
+   {
+    "id": "baixa-e-lisboa",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Baixa e Lisboa", "pt": "Baixa e Lisboa" },
+    "shortDescription": { "en": "Downtown Lisbon district.", "pt": "Distrito central de Lisboa." },
+    "fullDescription": { "en": "Baixa is Lisbon's downtown area, with grand squares, pedestrian streets, and historical buildings.", "pt": "A Baixa é a zona central de Lisboa, com praças imponentes, ruas pedonais e edifícios históricos." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "District", "pt": "Distrito" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "rua-augusta",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Rua Augusta", "pt": "Rua Augusta" },
+    "shortDescription": { "en": "Famous street with shops and cafes.", "pt": "Rua famosa com lojas e cafés." },
+    "fullDescription": { "en": "Rua Augusta is a historic pedestrian street in Lisbon, leading to the Comércio Square.", "pt": "A Rua Augusta é uma rua pedonal histórica em Lisboa, ligando à Praça do Comércio." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Street", "pt": "Rua" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "praca-do-comercio",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Comércio Square", "pt": "Praça do Comércio" },
+    "shortDescription": { "en": "Large riverside square in Lisbon.", "pt": "Grande praça ribeirinha em Lisboa." },
+    "fullDescription": { "en": "Praça do Comércio is one of Lisbon's largest squares, facing the Tagus river, known for its arcades and historical importance.", "pt": "A Praça do Comércio é uma das maiores praças de Lisboa, virada para o rio Tejo, conhecida pelos seus arcadas e importância histórica." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Square", "pt": "Praça" },
+    "address": "",
+    "phone": ""
+  },
+  {
+    "id": "mercado-da-ruibeira",
+    "type": "see",
+    "location": "lisbon",
+    "title": { "en": "Time Out Market", "pt": "Mercado da Ribeira" },
+    "shortDescription": { "en": "Famous food market.", "pt": "Mercado de comida famoso." },
+    "fullDescription": { "en": "Mercado da Ribeira is Lisbon's main food market, with dozens of restaurants and gourmet stalls.", "pt": "O Mercado da Ribeira é o principal mercado de comida de Lisboa, com dezenas de restaurantes e bancas gourmet." },
+    "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "category": { "en": "Market", "pt": "Mercado" },
+    "address": "",
+    "phone": ""
   },
   {
     "id": "boca-do-inferno",
