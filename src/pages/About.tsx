@@ -13,10 +13,10 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-8 tracking-tight">
             {t('about.title')}
           </h1>
-          <p className="text-xl text-orange-600 font-medium mb-6 italic">
+          <p className="text-xl text-orange-500 font-medium mb-6 italic">
             {t('about.mission')}
           </p>
           <p className="text-gray-600 text-lg leading-relaxed mb-8">
@@ -24,15 +24,15 @@ const About = () => {
           </p>
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center text-orange-600 font-bold">01</div>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">01</div>
               <p className="text-gray-900 font-medium">{t('about.features.01')}</p>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center text-orange-600 font-bold">02</div>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">02</div>
               <p className="text-gray-900 font-medium">{t('about.features.02')}</p>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center text-orange-600 font-bold">03</div>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">03</div>
               <p className="text-gray-900 font-medium">{t('about.features.03')}</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const About = () => {
             />
           </div>
           <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hidden md:block">
-            <p className="text-4xl font-bold text-orange-600 mb-1">100%</p>
+            <p className="text-4xl font-bold text-orange-500 mb-1">100%</p>
             <p className="text-xs text-gray-400 uppercase tracking-widest font-bold">{t('about.stats.authentic')}</p>
           </div>
         </motion.div>

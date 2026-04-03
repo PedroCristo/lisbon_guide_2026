@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mar-do-inferno",
+    "type": "eat",
+    "location": "cascais",
+    "title": {
+      "en": "Mar do Inferno",
+      "pt": "Mar do Inferno"
+    },
+    "shortDescription": {
+      "en": "A renowned seafood restaurant in Cascais, located right by the Boca do Inferno cliffs.",
+      "pt": "Um conceituado restaurante de marisco em Cascais, localizado junto às falésias da Boca do Inferno."
+    },
+    "fullDescription": {
+      "en": "Mar do Inferno is one of the most famous seafood restaurants in Cascais. Family-run for decades, it offers the freshest fish and shellfish from the Atlantic. The location is spectacular, offering views of the rugged coastline. It's the perfect place to enjoy traditional Portuguese seafood dishes like 'Arroz de Marisco' or simply grilled fish with a glass of local wine.",
+      "pt": "O Mar do Inferno é um dos restaurantes de marisco mais famosos de Cascais. Gerido pela mesma família há décadas, oferece o peixe e marisco mais frescos do Atlântico. A localização é espetacular, oferecendo vistas da costa acidentada. É o local perfeito para saborear pratos tradicionais de marisco português como o 'Arroz de Marisco' ou simplesmente peixe grelhado com um copo de vinho local."
+    },
+    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=1000",
+    "category": {
+      "en": "Seafood",
+      "pt": "Marisqueira"
+    },
+    "address": "Av. Rei Humberto II de Itália, 2750-800 Cascais",
+    "phone": "+351 21 483 2218",
+    "website_link": "https://www.mardoinferno.pt/"
+  }
+]

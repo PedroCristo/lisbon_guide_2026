@@ -27,7 +27,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({ id, title, shortDescription, imag
           referrerPolicy="no-referrer"
         />
         <div className="absolute top-4 left-4">
-          <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-[10px] font-bold uppercase tracking-widest text-orange-600 rounded-full shadow-sm">
+          <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-[10px] font-bold uppercase tracking-widest text-orange-500 rounded-full shadow-sm">
             {category}
           </span>
         </div>
@@ -39,7 +39,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({ id, title, shortDescription, imag
         </p>
         <Link
           to={`/details/${id}`}
-          className="inline-flex items-center justify-center px-6 py-3 bg-gray-900 text-white text-sm font-medium rounded-xl hover:bg-orange-600 transition-colors duration-300"
+          className="inline-flex items-center justify-center px-6 py-3 bg-slate-900 text-white text-sm font-medium rounded-xl hover:bg-orange-500 transition-colors duration-300"
         >
           {t('explore.view_details')}
         </Link>

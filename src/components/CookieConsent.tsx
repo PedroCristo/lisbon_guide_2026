@@ -41,12 +41,12 @@ const CookieConsent = () => {
         >
           <div className="max-w-4xl mx-auto bg-gray-900 text-white rounded-3xl shadow-2xl border border-white/10 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 backdrop-blur-xl bg-opacity-95">
             <div className="flex items-center space-x-4 text-center md:text-left">
-              <div className="p-3 bg-orange-600 rounded-2xl hidden md:block">
+              <div className="p-3 bg-orange-500 rounded-2xl hidden md:block">
                 <Cookie size={24} />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-1 flex items-center justify-center md:justify-start gap-2">
-                  <Cookie size={20} className="md:hidden text-orange-600" />
+                  <Cookie size={20} className="md:hidden text-orange-500" />
                   {t('cookies.title')}
                 </h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -64,7 +64,7 @@ const CookieConsent = () => {
               </button>
               <button
                 onClick={handleAccept}
-                className="flex-1 md:flex-none px-8 py-3 bg-orange-600 text-white text-sm font-bold rounded-xl hover:bg-orange-700 transition-all shadow-lg hover:shadow-orange-900/20"
+                className="flex-1 md:flex-none px-8 py-3 bg-slate-900 text-white text-sm font-bold rounded-xl hover:bg-slate-800 transition-all shadow-lg hover:shadow-slate-900/20"
               >
                 {t('cookies.accept')}
               </button>

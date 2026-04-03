@@ -16,12 +16,15 @@
       "pt": "O Time Out Market Lisboa é um food hall localizado no Mercado da Ribeira, no Cais do Sodré. Abriu em maio de 2014 e é o primeiro de vários projetos de food hall planeados pelo Time Out Group. O mercado conta com cerca de 40 espaços com os principais representantes da cidade em cada categoria, do melhor bife ao melhor hambúrguer, do melhor sushi aos melhores croquetes, do melhor presunto à melhor tarte de nata."
     },
     "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000",
     "category": {
       "en": "Food Hall",
       "pt": "Mercado Gastronómico"
     },
     "address": "Av. 24 de Julho 49, 1200-479 Lisboa",
-    "phone": "+351 21 359 3100"
+    "phone": "+351 21 359 3100",
+    "website_link": "https://www.timeoutmarket.com/lisboa/"
   },
   {
     "id": "pasteis-de-belem",
@@ -40,12 +43,15 @@
       "pt": "Pastéis de Belém é uma padaria histórica no bairro de Belém, em Lisboa. É famosa pelos seus 'Pastéis de Belém', uma tradicional tarte de ovo portuguesa. A receita é um segredo, originário do vizinho Mosteiro dos Jerónimos. Desde 1837, locais e turistas acorrem aqui para saborear estes pastéis quentes e estaladiços, polvilhados com canela e açúcar em pó. O interior está belamente decorado com os tradicionais azulejos azuis e brancos."
     },
     "image": "https://images.unsplash.com/photo-1599321955419-785157d86870?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1599321955419-785157d86870?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1599321955419-785157d86870?auto=format&fit=crop&q=80&w=1000",
     "category": {
       "en": "Bakery",
       "pt": "Pastelaria"
     },
     "address": "R. de Belém 84 92, 1300-085 Lisboa",
-    "phone": "+351 21 363 7423"
+    "phone": "+351 21 363 7423",
+    "website_link": "https://pasteisdebelem.pt/"
   },
   {
     "id": "a-cevicheria",
@@ -64,59 +70,14 @@
       "pt": "A Cevicheria, situada no moderno bairro do Príncipe Real, é um dos locais de restauração mais populares de Lisboa. O Chef Kiko Martins traz um toque moderno ao tradicional ceviche sul-americano, utilizando marisco fresco português. O restaurante é instantaneamente reconhecível pela escultura de um polvo branco gigante pendurada no teto. É um espaço pequeno e animado onde pode desfrutar de pratos criativos e do famoso Pisco Sour enquanto absorve a vibração local."
     },
     "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=1000",
     "category": {
       "en": "Seafood",
       "pt": "Marisqueira"
     },
     "address": "R. do Loreto 12, 1200-242 Lisboa",
-    "phone": "+351 21 346 1501"
-  },
-  {
-    "id": "mar-do-inferno",
-    "type": "eat",
-    "location": "cascais",
-    "title": {
-      "en": "Mar do Inferno",
-      "pt": "Mar do Inferno"
-    },
-    "shortDescription": {
-      "en": "A renowned seafood restaurant in Cascais, located right by the Boca do Inferno cliffs.",
-      "pt": "Um conceituado restaurante de marisco em Cascais, localizado junto às falésias da Boca do Inferno."
-    },
-    "fullDescription": {
-      "en": "Mar do Inferno is one of the most famous seafood restaurants in Cascais. Family-run for decades, it offers the freshest fish and shellfish from the Atlantic. The location is spectacular, offering views of the rugged coastline. It's the perfect place to enjoy traditional Portuguese seafood dishes like 'Arroz de Marisco' or simply grilled fish with a glass of local wine.",
-      "pt": "O Mar do Inferno é um dos restaurantes de marisco mais famosos de Cascais. Gerido pela mesma família há décadas, oferece o peixe e marisco mais frescos do Atlântico. A localização é espetacular, oferecendo vistas da costa acidentada. É o local perfeito para saborear pratos tradicionais de marisco português como o 'Arroz de Marisco' ou simplesmente peixe grelhado com um copo de vinho local."
-    },
-    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=1000",
-    "category": {
-      "en": "Seafood",
-      "pt": "Marisqueira"
-    },
-    "address": "Av. Rei Humberto II de Itália, 2750-800 Cascais",
-    "phone": "+351 21 483 2218"
-  },
-  {
-    "id": "piriquita",
-    "type": "eat",
-    "location": "sintra",
-    "title": {
-      "en": "Casa Piriquita",
-      "pt": "Casa Piriquita"
-    },
-    "shortDescription": {
-      "en": "A historic pastry shop in Sintra, famous for its Travesseiros and Queijadas.",
-      "pt": "Uma pastelaria histórica em Sintra, famosa pelos seus Travesseiros e Queijadas."
-    },
-    "fullDescription": {
-      "en": "Casa Piriquita was founded in 1862 and has been a staple of Sintra's gastronomy ever since. It is world-famous for its 'Travesseiros' (puff pastry filled with almond cream) and 'Queijadas de Sintra' (small cheese-based tarts). Located in the heart of the historic center, it's a must-visit for anyone with a sweet tooth exploring the mystical hills of Sintra.",
-      "pt": "A Casa Piriquita foi fundada em 1862 e tem sido um marco da gastronomia de Sintra desde então. É mundialmente famosa pelos seus 'Travesseiros' (massa folhada recheada com creme de amêndoa) e 'Queijadas de Sintra' (pequenas tartes à base de queijo). Localizada no coração do centro histórico, é uma visita obrigatória para quem gosta de doces e explora as colinas místicas de Sintra."
-    },
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
-    "category": {
-      "en": "Pastry Shop",
-      "pt": "Pastelaria"
-    },
-    "address": "R. das Padarias 1, 2710-603 Sintra",
-    "phone": "+351 21 923 0626"
+    "phone": "+351 21 346 1501",
+    "website_link": "https://www.acevicheria.pt/"
   }
 ]

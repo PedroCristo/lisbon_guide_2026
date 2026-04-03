@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pena-palace",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Pena Palace",
+      "pt": "Palácio da Pena"
+    },
+    "shortDescription": {
+      "en": "A Romanticist castle in Sintra, standing on the top of a hill above the town.",
+      "pt": "Um castelo romântico em Sintra, situado no topo de uma colina acima da vila."
+    },
+    "fullDescription": {
+      "en": "The Park and Palace of Pena is a Romanticist castle in São Pedro de Penaferrim, in the municipality of Sintra, on the Portuguese Riviera. The castle stands on the top of a hill in the Sintra Mountains above the town of Sintra, and on a clear day it can be easily seen from Lisbon and much of its metropolitan area. It is a national monument and constitutes one of the major expressions of 19th-century Romanticism in the world. The palace is a UNESCO World Heritage Site and one of the Seven Wonders of Portugal.",
+      "pt": "O Parque e Palácio da Pena é um castelo romântico em São Pedro de Penaferrim, no concelho de Sintra, na Riviera Portuguesa. O castelo situa-se no topo de uma colina na Serra de Sintra, acima da vila de Sintra, e num dia limpo pode ser facilmente visto de Lisboa e de grande parte da sua área metropolitana. É um monumento nacional e constitui uma das principais expressões do romantismo do século XIX no mundo. O palácio é Património Mundial da UNESCO e uma das Sete Maravilhas de Portugal."
+    },
+    "image": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=1000",
+    "category": {
+      "en": "Palace",
+      "pt": "Palácio"
+    },
+    "address": "Estrada da Pena, 2710-609 Sintra",
+    "phone": "+351 21 923 7300",
+    "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-nacional-da-pena/"
+  }
+]

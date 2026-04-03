@@ -21,7 +21,16 @@
   "home": {
     "hero_title": "Descubra Lisboa",
     "hero_subtitle": "Experimente a magia da cidade das sete colinas.",
-    "cta": "Começar a Explorar"
+    "cta": "Começar a Explorar",
+    "welcome_title": "Bem-vindo a Lisboa",
+    "welcome_description": "Lisboa é uma das cidades mais antigas do mundo e a mais antiga da Europa Ocidental, precedendo outras capitais europeias modernas como Londres, Paris e Roma por séculos.",
+    "feature_top_rated": "Mais Bem Avaliado",
+    "feature_top_rated_desc": "Eleito o destino nº 1 na Europa.",
+    "feature_photogenic": "Fotogénico",
+    "feature_photogenic_desc": "Miradouros deslumbrantes sem fim.",
+    "sunny_days": "300+",
+    "sunny_days_label": "DIAS DE SOL",
+    "reviews_title": "O que dizem os nossos visitantes"
   },
   "explore": {
     "title": "O que Ver",
@@ -41,6 +50,7 @@
     "phone": "Telefone",
     "not_found": "Local não encontrado",
     "go_back_explore": "Voltar para explorar",
+    "book_now": "Reservar Agora",
     "types": {
       "see": "Turismo",
       "eat": "Gastronomia"
@@ -90,7 +100,11 @@
     }
   },
   "footer": {
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "description": "Explore as ruas vibrantes, a rica história e os miradouros deslumbrantes da capital de Portugal. O seu companheiro ideal para uma aventura inesquecível em Lisboa.",
+    "quick_links": "Links Rápidos",
+    "locations": "Localizações",
+    "office_address": "Rua Dr. Alfredo da Costa 12\n2710-523 Sintra\nPortugal"
   },
   "cookies": {
     "title": "Cookies",

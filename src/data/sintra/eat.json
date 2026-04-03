@@ -1,0 +1,29 @@
+[
+  {
+    "id": "piriquita",
+    "type": "eat",
+    "location": "sintra",
+    "title": {
+      "en": "Casa Piriquita",
+      "pt": "Casa Piriquita"
+    },
+    "shortDescription": {
+      "en": "A historic pastry shop in Sintra, famous for its Travesseiros and Queijadas.",
+      "pt": "Uma pastelaria histórica em Sintra, famosa pelos seus Travesseiros e Queijadas."
+    },
+    "fullDescription": {
+      "en": "Casa Piriquita was founded in 1862 and has been a staple of Sintra's gastronomy ever since. It is world-famous for its 'Travesseiros' (puff pastry filled with almond cream) and 'Queijadas de Sintra' (small cheese-based tarts). Located in the heart of the historic center, it's a must-visit for anyone with a sweet tooth exploring the mystical hills of Sintra.",
+      "pt": "A Casa Piriquita foi fundada em 1862 e tem sido um marco da gastronomia de Sintra desde então. É mundialmente famosa pelos seus 'Travesseiros' (massa folhada recheada com creme de amêndoa) e 'Queijadas de Sintra' (pequenas tartes à base de queijo). Localizada no coração do centro histórico, é uma visita obrigatória para quem gosta de doces e explora as colinas místicas de Sintra."
+    },
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+    "image_bg": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=2000",
+    "image_bg_mobile": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+    "category": {
+      "en": "Pastry Shop",
+      "pt": "Pastelaria"
+    },
+    "address": "R. das Padarias 1, 2710-603 Sintra",
+    "phone": "+351 21 923 0626",
+    "website_link": "https://www.piriquita.pt/"
+  }
+]

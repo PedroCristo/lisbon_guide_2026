@@ -1,8 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import seePlaces from '../data/see.json';
-import eatPlaces from '../data/eat.json';
+import lisbonSee from '../data/lisbon/see.json';
+import lisbonEat from '../data/lisbon/eat.json';
+import sintraSee from '../data/sintra/see.json';
+import sintraEat from '../data/sintra/eat.json';
+import cascaisSee from '../data/cascais/see.json';
+import cascaisEat from '../data/cascais/eat.json';
 import PlaceCard from '../components/PlaceCard';
 import { motion } from 'motion/react';
 
@@ -12,11 +16,17 @@ const LocationPage = () => {
   const currentLang = i18n.language.startsWith('pt') ? 'pt' : 'en';
 
   const isEat = type === 'eat';
-  const dataSource = isEat ? eatPlaces : seePlaces;
   
-  const filteredPlaces = dataSource.filter(
-    (place) => place.location === location
-  );
+  let dataSource: any[] = [];
+  if (location === 'lisbon') {
+    dataSource = isEat ? lisbonEat : lisbonSee;
+  } else if (location === 'sintra') {
+    dataSource = isEat ? sintraEat : sintraSee;
+  } else if (location === 'cascais') {
+    dataSource = isEat ? cascaisEat : cascaisSee;
+  }
+  
+  const filteredPlaces = dataSource;
 
   const titleKey = `around.${location}_title`;
   const subtitleKey = `around.${location}_subtitle`;
@@ -30,7 +40,7 @@ const LocationPage = () => {
         className="mb-16"
       >
         <div className="flex items-center space-x-2 mb-4">
-          <span className="px-3 py-1 bg-orange-100 text-orange-600 text-[10px] font-bold uppercase tracking-widest rounded-full">
+          <span className="px-3 py-1 bg-orange-50 text-orange-500 text-[10px] font-bold uppercase tracking-widest rounded-full">
             {t(`nav.${location}`)}
           </span>
           <span className="text-gray-300">/</span>
@@ -38,7 +48,7 @@ const LocationPage = () => {
             {typeLabel}
           </span>
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 tracking-tight">
+        <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">
           {t(titleKey)}
         </h1>
         <p className="text-gray-600 text-lg max-w-2xl font-light italic">

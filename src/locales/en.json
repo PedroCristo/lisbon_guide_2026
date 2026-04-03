@@ -21,7 +21,16 @@
   "home": {
     "hero_title": "Discover Lisbon",
     "hero_subtitle": "Some places just feel like home. Lisbon is one of them.",
-    "cta": "Start Exploring"
+    "cta": "Start Exploring",
+    "welcome_title": "Welcome to Lisbon",
+    "welcome_description": "Lisbon is one of the oldest cities in the world and the oldest in Western Europe, predating other modern European capitals like London, Paris and Rome by centuries.",
+    "feature_top_rated": "Top Rated",
+    "feature_top_rated_desc": "Voted #1 destination in Europe.",
+    "feature_photogenic": "Photogenic",
+    "feature_photogenic_desc": "Endless stunning viewpoints.",
+    "sunny_days": "300+",
+    "sunny_days_label": "SUNNY DAYS",
+    "reviews_title": "What our visitors say"
   },
   "explore": {
     "title": "What to See",
@@ -41,6 +50,7 @@
     "phone": "Phone",
     "not_found": "Place not found",
     "go_back_explore": "Go back to explore",
+    "book_now": "Book Now",
     "types": {
       "see": "Sightseeing",
       "eat": "Gastronomy"
@@ -90,7 +100,11 @@
     }
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "description": "Explore the vibrant streets, rich history, and stunning viewpoints of Portugal's capital. Your ultimate companion for an unforgettable Lisbon adventure.",
+    "quick_links": "Quick Links",
+    "locations": "Locations",
+    "office_address": "Rua Dr. Alfredo da Costa 12\n2710-523 Sintra\nPortugal"
   },
   "cookies": {
     "title": "Cookies",

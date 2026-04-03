@@ -68,7 +68,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-bold text-orange-600 tracking-tighter">
+            <Link to="/" className="text-2xl font-bold text-orange-500 tracking-tighter">
               LISBON<span className={`${isTransparent ? 'text-white' : 'text-gray-900'} font-light italic transition-colors duration-300`}>guide</span>
             </Link>
           </div>
@@ -79,9 +79,9 @@ const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-all duration-300 hover:text-orange-600 ${
+                className={`text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
                   location.pathname === link.path 
-                    ? 'text-orange-600' 
+                    ? 'text-orange-500' 
                     : isTransparent ? 'text-white' : 'text-gray-600'
                 }`}
               >
@@ -96,9 +96,9 @@ const Navbar = () => {
               onMouseLeave={() => setIsAroundOpen(false)}
             >
               <button
-                className={`flex items-center space-x-1 text-sm font-medium transition-all duration-300 hover:text-orange-600 ${
+                className={`flex items-center space-x-1 text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
                   location.pathname.startsWith('/around') 
-                    ? 'text-orange-600' 
+                    ? 'text-orange-500' 
                     : isTransparent ? 'text-white' : 'text-gray-600'
                 }`}
               >
@@ -117,7 +117,7 @@ const Navbar = () => {
                     <div className="p-4 grid grid-cols-1 gap-4">
                       {aroundLinks.map((group) => (
                         <div key={group.label}>
-                          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2 px-2">
+                          <p className="text-[10px] font-bold text-white bg-orange-500 rounded px-2 py-0.5 inline-block uppercase tracking-widest mb-2">
                             {group.label}
                           </p>
                           <div className="space-y-1">
@@ -125,7 +125,7 @@ const Navbar = () => {
                               <Link
                                 key={item.path}
                                 to={item.path}
-                                className="block px-2 py-2 text-sm text-gray-600 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-all"
+                                className="block px-2 py-2 text-sm text-gray-600 hover:text-orange-500 hover:bg-orange-50 rounded-lg transition-all"
                               >
                                 {item.name}
                               </Link>
@@ -141,9 +141,9 @@ const Navbar = () => {
 
             <Link
               to="/about"
-              className={`text-sm font-medium transition-all duration-300 hover:text-orange-600 ${
+              className={`text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
                 location.pathname === '/about' 
-                  ? 'text-orange-600' 
+                  ? 'text-orange-500' 
                   : isTransparent ? 'text-white' : 'text-gray-600'
               }`}
             >
@@ -151,9 +151,9 @@ const Navbar = () => {
             </Link>
             <Link
               to="/contact"
-              className={`text-sm font-medium transition-all duration-300 hover:text-orange-600 ${
+              className={`text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
                 location.pathname === '/contact' 
-                  ? 'text-orange-600' 
+                  ? 'text-orange-500' 
                   : isTransparent ? 'text-white' : 'text-gray-600'
               }`}
             >
@@ -162,7 +162,7 @@ const Navbar = () => {
 
             <button
               onClick={toggleLanguage}
-              className={`flex items-center space-x-1 text-sm font-medium transition-all duration-300 hover:text-orange-600 ${
+              className={`flex items-center space-x-1 text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
                 isTransparent ? 'text-white' : 'text-gray-600'
               }`}
             >
@@ -175,7 +175,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`transition-colors duration-300 hover:text-orange-600 focus:outline-none ${
+              className={`transition-colors duration-300 hover:text-orange-500 focus:outline-none ${
                 isTransparent ? 'text-white' : 'text-gray-600'
               }`}
             >
@@ -201,7 +201,7 @@ const Navbar = () => {
                   to={link.path}
                   onClick={() => setIsOpen(false)}
                   className={`block px-3 py-2 text-base font-medium ${
-                    location.pathname === link.path ? 'text-orange-600' : 'text-gray-600'
+                    location.pathname === link.path ? 'text-orange-500' : 'text-gray-600'
                   }`}
                 >
                   {link.name}
@@ -216,14 +216,14 @@ const Navbar = () => {
                 <div className="space-y-4 pl-3">
                   {aroundLinks.map((group) => (
                     <div key={group.label}>
-                      <p className="text-xs font-bold text-gray-900 mb-1">{group.label}</p>
+                      <p className="text-xs font-bold text-white bg-orange-500 rounded px-2 py-0.5 inline-block mb-1">{group.label}</p>
                       <div className="space-y-1">
                         {group.items.map((item) => (
                           <Link
                             key={item.path}
                             to={item.path}
                             onClick={() => setIsOpen(false)}
-                            className="block py-1 text-sm text-gray-600 hover:text-orange-600"
+                            className="block py-1 text-sm text-gray-600 hover:text-orange-500"
                           >
                             {item.name}
                           </Link>
@@ -238,7 +238,7 @@ const Navbar = () => {
                 to="/about"
                 onClick={() => setIsOpen(false)}
                 className={`block px-3 py-2 text-base font-medium ${
-                  location.pathname === '/about' ? 'text-orange-600' : 'text-gray-600'
+                  location.pathname === '/about' ? 'text-orange-500' : 'text-gray-600'
                 }`}
               >
                 {t('nav.about')}
@@ -247,7 +247,7 @@ const Navbar = () => {
                 to="/contact"
                 onClick={() => setIsOpen(false)}
                 className={`block px-3 py-2 text-base font-medium ${
-                  location.pathname === '/contact' ? 'text-orange-600' : 'text-gray-600'
+                  location.pathname === '/contact' ? 'text-orange-500' : 'text-gray-600'
                 }`}
               >
                 {t('nav.contact')}

@@ -20,7 +20,7 @@ import LocationPage from './pages/LocationPage';
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-orange-100 selection:text-orange-600">
+      <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-orange-50 selection:text-orange-500">
         <Navbar />
         <main>
           <Routes>

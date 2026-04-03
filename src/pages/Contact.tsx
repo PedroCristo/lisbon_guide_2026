@@ -55,11 +55,11 @@ const Contact = () => {
   return (
     <div className="pt-32 pb-24 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 tracking-tight">
+        <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">
           {t('contact.title')}
         </h1>
         <p className="text-gray-500 max-w-lg mx-auto">{t('contact.subtitle')}</p>
-        <div className="w-20 h-1 bg-orange-600 mx-auto rounded-full mt-6" />
+        <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full mt-6" />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -70,7 +70,7 @@ const Contact = () => {
           className="bg-gray-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl"
         >
           <div className="flex items-center space-x-3 mb-8">
-            <Building className="text-orange-600" size={32} />
+            <Building className="text-orange-500" size={32} />
             <h2 className="text-2xl font-bold tracking-tight">{t('contact.info.company')}</h2>
           </div>
           
@@ -80,7 +80,7 @@ const Contact = () => {
 
           <div className="space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-600">
+              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
                 <MapPin size={20} />
               </div>
               <div>
@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-600">
+              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
                 <Phone size={20} />
               </div>
               <div>
@@ -100,7 +100,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-600">
+              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
                 <Mail size={20} />
               </div>
               <div>
@@ -200,7 +200,7 @@ const Contact = () => {
 
               {/* Mock reCAPTCHA */}
               <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                <input type="checkbox" id="recaptcha" className="w-5 h-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500" />
+                <input type="checkbox" id="recaptcha" className="w-5 h-5 rounded border-gray-300 text-orange-500 focus:ring-orange-500" />
                 <label htmlFor="recaptcha" className="text-sm text-gray-600 font-medium">{t('contact.form.recaptcha')}</label>
                 <div className="flex-grow" />
                 <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" className="w-6 h-6 opacity-50" />
@@ -208,7 +208,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full flex items-center justify-center space-x-2 py-4 bg-orange-600 text-white font-bold rounded-xl hover:bg-orange-700 transition-all shadow-lg hover:shadow-orange-200"
+                className="w-full flex items-center justify-center space-x-2 py-4 bg-slate-900 text-white font-bold rounded-xl hover:bg-slate-800 transition-all shadow-lg hover:shadow-slate-900/20"
               >
                 <span>{t('contact.form.submit')}</span>
                 <Send size={18} />

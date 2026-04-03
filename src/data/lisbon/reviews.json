@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah K.",
+    "city": {
+      "en": "New York",
+      "pt": "Nova Iorque"
+    },
+    "rating": 5,
+    "review": {
+      "en": "Perfect amount of info for a short Lisbon trip!",
+      "pt": "Quantidade perfeita de informações para uma curta viagem a Lisboa!"
+    },
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": "2",
+    "name": "João P.",
+    "city": {
+      "en": "Porto",
+      "pt": "Porto"
+    },
+    "rating": 5,
+    "review": {
+      "en": "The restaurant recommendations were amazing!",
+      "pt": "As recomendações de restaurantes foram incríveis!"
+    },
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": "3",
+    "name": "Elena M.",
+    "city": {
+      "en": "Madrid",
+      "pt": "Madrid"
+    },
+    "rating": 4,
+    "review": {
+      "en": "Very helpful guide for first-time visitors.",
+      "pt": "Guia muito útil para visitantes de primeira viagem."
+    },
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": "4",
+    "name": "Elena M.",
+    "city": {
+      "en": "Madrid",
+      "pt": "Madrid"
+    },
+    "rating": 4,
+    "review": {
+      "en": "Very helpful guide for first-time visitors.",
+      "pt": "Guia muito útil para visitantes de primeira viagem."
+    },
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+  }
+]
