@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import seePlaces from '../data/lisbon/see.json';
 import PlaceCard from '../components/PlaceCard';
+import CategoryDropdown from '../components/CategoryDropdown';
 
 const Explore = () => {
   const { t, i18n } = useTranslation();
@@ -27,32 +28,13 @@ const Explore = () => {
           {t('explore.subtitle')}
         </p>
 
-        {/* Filter Buttons */}
-        <div className="flex flex-wrap gap-3">
-          <button
-            onClick={() => setSelectedCategory(null)}
-            className={`px-6 py-2 rounded-full text-sm font-bold tracking-widest uppercase transition-all ${
-              selectedCategory === null
-                ? 'bg-orange-500 text-white shadow-lg shadow-orange-200'
-                : 'bg-white text-gray-400 border border-gray-100 hover:border-orange-200'
-            }`}
-          >
-            {currentLang === 'pt' ? 'Todos' : 'All'}
-          </button>
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-2 rounded-full text-sm font-bold tracking-widest uppercase transition-all ${
-                selectedCategory === category
-                  ? 'bg-orange-500 text-white shadow-lg shadow-orange-200'
-                  : 'bg-white text-gray-400 border border-gray-100 hover:border-orange-200'
-              }`}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
+        {/* Filter Dropdown */}
+        <CategoryDropdown
+          categories={categories}
+          selectedCategory={selectedCategory}
+          onSelect={setSelectedCategory}
+          allLabel={currentLang === 'pt' ? 'Todos' : 'All'}
+        />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
