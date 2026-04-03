@@ -39,10 +39,10 @@ const ScrollToTop = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={scrollToTop}
-            className="p-4 bg-orange-600 text-white rounded-full shadow-2xl hover:bg-orange-700 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+            className="scroll-to-top p-4 bg-orange-600 text-white rounded-full shadow-2xl hover:bg-orange-700 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
             aria-label="Scroll to top"
           >
-            <ArrowUp size={24} />
+            <ArrowUp size={22} />
           </motion.button>
         )}
       </AnimatePresence>

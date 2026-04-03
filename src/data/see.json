@@ -16,6 +16,7 @@
       "pt": "A Torre de Belém, ou Torre de São Vicente, é uma fortificação do século XVI localizada em Lisboa que serviu como ponto de embarque e desembarque para os exploradores portugueses e como porta cerimonial de Lisboa. Foi construída durante o auge do Renascimento português e é um exemplo proeminente do estilo manuelino português, mas também incorpora toques de outros estilos arquitetónicos. A estrutura foi construída em calcário lioz e é composta por um baluarte e uma torre de quatro andares com 30 metros de altura."
     },
     "image": "../src/assets/images/desktop/lisbon-guide-torre-belem-2.webp",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-torre-belem-bg-1.jpg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"

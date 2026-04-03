@@ -11,6 +11,6 @@
   }
 }
 
-.title {
- background-image: url(../src/assets/images/desktop/lisbon-guide-torre-belem-1.avif);
+.scroll-to-top:hover {
+  cursor: pointer;
 }
