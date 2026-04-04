@@ -35,6 +35,10 @@ const About = () => {
               <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">03</div>
               <p className="text-gray-900 font-medium">{t('about.features.03')}</p>
             </div>
+            <div className="flex items-center space-x-4">
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">04</div>
+              <p className="text-gray-900 font-medium">{t('about.features.04')}</p>
+            </div>
           </div>
         </motion.div>
 

@@ -58,15 +58,16 @@
   },
   "about": {
     "title": "About the Project",
-    "mission": "Our mission is to provide travelers with the best information to discover the hidden gems and iconic landmarks of Lisbon.",
-    "description": "This travel guide was created to showcase the beauty, history, and culture of Portugal's capital city.",
+    "mission": "Our mission is to help travelers explore Lisbon with reliable, insightful information that highlights both its iconic landmarks and hidden gems.",
+    "description": "This travel guide was designed to capture the essence of Lisbon its rich history, vibrant culture, and unique charm through carefully selected places and experiences.",
     "features": {
       "01": "Curated Local Experiences",
-      "02": "Historical & Cultural Insights",
-      "03": "Multilingual Support"
+      "02": "Historical & Cultural Context",
+      "03": "Multilingual Content",
+      "04": "Gastronomy & Local Cuisine Highlights"
     },
     "stats": {
-      "authentic": "Authentic Content"
+      "authentic": "Authentic, Handpicked Content"
     }
   },
   "contact": {
