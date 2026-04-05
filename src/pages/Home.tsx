@@ -9,7 +9,7 @@ import reviews from "../data/lisbon/reviews.json";
 import PlaceCard from "../components/PlaceCard";
 import hero1 from "../assets/images/desktop/lisbon-guide-torre-belem-1.avif";
 import hero2 from "../assets/images/desktop/lisbon-guide-jeronimos-monestery-3.jpg";
-import bairroImg from '../assets/images/desktop/lisbon-guide-bairro-alto-1.png';
+import bairroImg from "../assets/images/desktop/lisbon-guide-bairro-alto-1.png";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -22,7 +22,14 @@ const Home = () => {
   const heroImages = [hero1, hero2];
 
   // Show only first 3 places from 'see' as preview
-  const previewPlaces = seePlaces.slice(0, 3);
+  // const previewPlaces = seePlaces.slice(0, 3);
+
+  // Shuffle array and take first 3
+  const shuffleArray = (array: any[]) => {
+    return [...array].sort(() => Math.random() - 0.5);
+  };
+
+  const previewPlaces = shuffleArray(seePlaces).slice(0, 3);
   const currentReview = reviews[currentReviewIndex];
 
   React.useEffect(() => {
@@ -240,7 +247,7 @@ const Home = () => {
                   <img
                     src={currentReview.image}
                     alt={currentReview.name}
-                    className="w-20 h-20 rounded-full object-cover border-4 border-orange-100 shadow-md"
+                    className="w-30 h-30 rounded-full object-cover border-4 border-orange-100 shadow-md"
                     referrerPolicy="no-referrer"
                   />
                   <div>
@@ -264,7 +271,7 @@ const Home = () => {
                       size={20}
                       className={
                         i < currentReview.rating
-                          ? "text-orange-500 fill-orange-500"
+                          ? "text-yellow-400 fill-yellow-300"
                           : "text-gray-200"
                       }
                     />

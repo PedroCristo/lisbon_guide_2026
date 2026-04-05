@@ -748,5 +748,59 @@
     "address": "Praça Marechal Humberto Delgado, 1549-004 Lisboa",
     "phone": "",
     "website_link": "https://www.zoo.pt/"
+  },
+  {
+    "id": "estadio-da-luz",
+    "type": "see",
+    "location": "lisbon",
+    "title": {
+      "en": "Estádio da Luz",
+      "pt": "Estádio da Luz"
+    },
+    "shortDescription": {
+      "en": "Home stadium of Benfica and one of Portugal’s largest football arenas.",
+      "pt": "Estádio do Benfica e um dos maiores estádios de futebol de Portugal."
+    },
+    "fullDescription": {
+      "en": "Estádio da Luz, officially known as Estádio do Sport Lisboa e Benfica, is the home of SL Benfica and one of the most iconic football stadiums in Portugal. It hosted major events including the UEFA Euro 2004 final and the UEFA Champions League final in 2014. The stadium offers guided tours, a museum, and an immersive experience for football fans.",
+      "pt": "O Estádio da Luz, oficialmente Estádio do Sport Lisboa e Benfica, é a casa do SL Benfica e um dos estádios mais emblemáticos de Portugal. Já recebeu grandes eventos como a final do Euro 2004 e a final da Liga dos Campeões em 2014. O estádio oferece visitas guiadas, um museu e uma experiência imersiva para os fãs de futebol."
+    },
+    "image": "../src/assets/images/desktop/lisbon-guide-estadio-da-luz-thumb-nail.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-estadio-da-luz-bg.jpg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-estadio-da-luz-bg.jpg",
+    "category": {
+      "en": "Stadium",
+      "pt": "Estádio"
+    },
+    "address": "Av. Eusébio da Silva Ferreira, 1500-313 Lisboa",
+    "phone": "",
+    "website_link": "https://www.slbenfica.pt/"
+  },
+  {
+    "id": "estadio-jose-alvalade",
+    "type": "see",
+    "location": "lisbon",
+    "title": {
+      "en": "Estádio José Alvalade",
+      "pt": "Estádio José Alvalade"
+    },
+    "shortDescription": {
+      "en": "Home stadium of Sporting CP and a modern football venue in Lisbon.",
+      "pt": "Estádio do Sporting CP e um moderno recinto de futebol em Lisboa."
+    },
+    "fullDescription": {
+      "en": "Estádio José Alvalade is the home stadium of Sporting Clube de Portugal (Sporting CP). Opened in 2003 for UEFA Euro 2004, it is known for its modern design, vibrant atmosphere, and excellent facilities. The stadium also hosts concerts and events, and offers tours and a club museum for visitors.",
+      "pt": "O Estádio José Alvalade é o estádio do Sporting Clube de Portugal (Sporting CP). Inaugurado em 2003 para o Euro 2004, é conhecido pelo seu design moderno, ambiente vibrante e excelentes infraestruturas. O estádio também recebe concertos e eventos, e disponibiliza visitas guiadas e um museu do clube."
+    },
+    "image": "../src/assets/images/desktop/lisbon-guide-estadio-jose-alvalade-thumb-nail.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-estadio-jose-alvalade-bg.jpg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-estadio-jose-alvalade-bg.png",
+    "category": {
+      "en": "Stadium",
+      "pt": "Estádio"
+    },
+    "address": "Rua Professor Fernando da Fonseca, 1501-806 Lisboa",
+    "phone": "",
+    "website_link": "https://www.sporting.pt/"
   }
 ]
