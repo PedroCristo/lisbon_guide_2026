@@ -227,9 +227,9 @@
       "en": "Praça do Comércio is one of Lisbon’s most iconic squares, located along the Tagus River. Historically known as Terreiro do Paço, it served as the location of the royal palace before it was destroyed in the 1755 earthquake. Today, the square is surrounded by elegant arcades and yellow Pombaline-style buildings, with the impressive Arco da Rua Augusta leading into the Baixa district. It is a central hub for both tourists and locals.",
       "pt": "A Praça do Comércio é uma das praças mais icónicas de Lisboa, localizada junto ao rio Tejo. Historicamente conhecida como Terreiro do Paço, foi o local do palácio real antes de ser destruído no terramoto de 1755. Atualmente, a praça é rodeada por arcadas elegantes e edifícios amarelos de estilo pombalino, com o imponente Arco da Rua Augusta a dar acesso à Baixa. É um ponto central tanto para turistas como para locais."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-praca-do-comercio.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-praca-do-comercio-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-praca-do-comercio-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-praca-comercio-thumb-nail.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-praca-comercio-bg.jpeg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-praca-comercio-bg.jpg",
     "category": {
       "en": "Square",
       "pt": "Praça"
@@ -254,9 +254,9 @@
       "en": "Baixa is Lisbon’s downtown area, rebuilt after the 1755 earthquake with a grid layout of wide streets and neoclassical architecture. It features iconic squares such as Praça do Comércio and Rossio, as well as pedestrian streets filled with shops, cafes, and historic buildings. The area is one of the main commercial and tourist hubs of Lisbon, offering easy access to many landmarks and a vibrant urban atmosphere.",
       "pt": "A Baixa é a zona central de Lisboa, reconstruída após o terramoto de 1755 com uma malha de ruas em grelha e arquitetura neoclássica. Inclui praças icónicas como a Praça do Comércio e o Rossio, bem como ruas pedonais repletas de lojas, cafés e edifícios históricos. É uma das principais zonas comerciais e turísticas de Lisboa, oferecendo fácil acesso a vários pontos de interesse e uma atmosfera urbana vibrante."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-baixa-lisbon.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-baixa-lisbon-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-baixa-lisbon-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-baixa-bg.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-baixa-bg.jpg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-baixa-bg.jpg",
     "category": {
       "en": "District",
       "pt": "Distrito"
@@ -280,40 +280,14 @@
       "en": "Rua Augusta is one of Lisbon’s most iconic pedestrian streets, located in the heart of the Baixa district. It connects Praça do Comércio to Rossio Square and is lined with shops, cafes, and street performers. The street is known for its traditional Portuguese architecture, the Rua Augusta Arch at its southern end, and its vibrant atmosphere that attracts both locals and tourists throughout the day.",
       "pt": "A Rua Augusta é uma das ruas pedonais mais icónicas de Lisboa, situada no coração da Baixa. Liga a Praça do Comércio ao Rossio e é ladeada por lojas, cafés e artistas de rua. A rua é conhecida pela sua arquitetura tradicional portuguesa, pelo Arco da Rua Augusta na extremidade sul e pela sua atmosfera vibrante que atrai tanto locais como turistas ao longo do dia."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-rua-augusta.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-rua-augusta-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-rua-augusta-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-rua-augusta-thumb-nail.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-rua-augusta-bg.jpg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-rua-augusta-bg.PNG",
     "category": {
       "en": "Street",
       "pt": "Rua"
     },
     "address": "Rua Augusta, 1100-053 Lisboa",
-    "phone": ""
-  },
-  {
-    "id": "praca-do-comercio",
-    "type": "see",
-    "location": "lisbon",
-    "title": {
-      "en": "Comércio Square",
-      "pt": "Praça do Comércio"
-    },
-    "shortDescription": {
-      "en": "Large riverside square in Lisbon.",
-      "pt": "Grande praça ribeirinha em Lisboa."
-    },
-    "fullDescription": {
-      "en": "Praça do Comércio is one of Lisbon’s largest and most iconic squares, located along the Tagus River. Historically known as Terreiro do Paço, it was rebuilt after the 1755 earthquake and now features grand arcades, yellow neoclassical buildings, and the Arco da Rua Augusta. The square serves as a major landmark and gathering place, offering open views of the river and a strong sense of Lisbon’s historical and architectural identity.",
-      "pt": "A Praça do Comércio é uma das maiores e mais icónicas praças de Lisboa, situada junto ao rio Tejo. Historicamente conhecida como Terreiro do Paço, foi reconstruída após o terramoto de 1755 e apresenta hoje arcadas imponentes, edifícios neoclássicos amarelos e o Arco da Rua Augusta. A praça funciona como um importante ponto de referência e encontro, oferecendo vistas abertas sobre o rio e uma forte identidade histórica e arquitetónica."
-    },
-    "image": "../src/assets/images/desktop/lisbon-guide-praca-do-comercio.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-praca-do-comercio-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-praca-do-comercio-bg.jpg",
-    "category": {
-      "en": "Square",
-      "pt": "Praça"
-    },
-    "address": "Praça do Comércio, 1100-148 Lisboa",
     "phone": ""
   },
   {
@@ -332,9 +306,9 @@
       "en": "Mercado da Ribeira is Lisbon's main food market, also known as Time Out Market, featuring dozens of restaurants, gourmet stalls, and a curated selection of local and international cuisine. It has become a popular gastronomic destination where visitors can sample dishes from some of the city’s top chefs in a lively, communal setting.",
       "pt": "O Mercado da Ribeira, também conhecido como Time Out Market, é o principal mercado de comida de Lisboa, com dezenas de restaurantes e bancas gourmet. Tornou-se um destino gastronómico popular onde os visitantes podem provar pratos de alguns dos melhores chefs da cidade num ambiente dinâmico e partilhado."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-mercado-da-ribeira.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-mercado-da-ribeira-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-mercado-da-ribeira-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-ribeira-market-thumb-nail.jpg",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-ribeira-market-bg.jpg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-ribeira-market-bg.jpeg",
     "category": {
       "en": "Market",
       "pt": "Mercado"
@@ -359,7 +333,7 @@
       "en": "Ribeira das Naus is a scenic riverside promenade located between Praça do Comércio and Cais do Sodré. Once used as a shipyard during the Age of Discovery, it has been transformed into a modern public space with wide walkways, green areas, and seating along the Tagus River. It is a popular spot for walking, relaxing, and enjoying views of the river, especially at sunset.",
       "pt": "A Ribeira das Naus é um passeio ribeirinho situado entre a Praça do Comércio e o Cais do Sodré. Antigamente utilizada como estaleiro naval durante a Era dos Descobrimentos, foi transformada num espaço público moderno com amplos passeios, zonas verdes e áreas de descanso junto ao rio Tejo. É um local popular para caminhar, relaxar e apreciar as vistas sobre o rio, especialmente ao pôr do sol."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-ribeira-das-naus.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-ribeira-das-naust-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-ribeira-das-naus-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-ribeira-das-naus-bg.jpg",
     "category": {
@@ -386,7 +360,7 @@
       "en": "The Monument to the Discoveries is a striking structure located along the Tagus River in Belém, Lisbon. Originally built as a temporary structure in 1940 and later reconstructed in durable materials, it commemorates the Portuguese Age of Discoveries. The monument features sculpted figures of key historical personalities such as explorers, navigators, and patrons of the era, led by Henry the Navigator at the front. Visitors can also ascend to the top for panoramic views over the river, the Jerónimos Monastery, and the surrounding area.",
       "pt": "O Padrão dos Descobrimentos é uma impressionante estrutura localizada junto ao rio Tejo, em Belém, Lisboa. Originalmente construído como estrutura temporária em 1940 e posteriormente reconstruído em materiais duradouros, comemora a Era dos Descobrimentos portugueses. O monumento apresenta figuras esculpidas de personalidades históricas importantes, como exploradores, navegadores e patronos da época, liderados no topo pelo Infante D. Henrique. Os visitantes podem subir ao topo para obter vistas panorâmicas sobre o rio, o Mosteiro dos Jerónimos e a zona envolvente."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-padrao-dos-descobrimentos.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-padrao-dos-descobrimentos-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
     "category": {
@@ -413,7 +387,7 @@
       "en": "The Coach Museum in Lisbon houses one of the most important collections of royal carriages in the world. It showcases vehicles used by European royalty from the 16th to the 19th centuries, including ornate coaches, ceremonial vehicles, and historical artifacts. The museum highlights the evolution of transportation and the craftsmanship involved in carriage design, offering visitors a unique insight into Portugal’s royal history.",
       "pt": "O Museu dos Coches em Lisboa alberga uma das mais importantes coleções de carruagens reais do mundo. Exibe veículos utilizados pela realeza europeia entre os séculos XVI e XIX, incluindo coches ornamentados, veículos cerimoniais e artefactos históricos. O museu destaca a evolução dos meios de transporte e o trabalho artesanal envolvido no design das carruagens, oferecendo aos visitantes uma visão única da história real de Portugal."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-museu-dos-coches.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-museu-dos-coches-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-museu-dos-coches-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-museu-dos-coches-bg.jpg",
     "category": {
@@ -440,9 +414,9 @@
       "en": "The Maritime Museum, located in Belém, is one of the most important museums in Portugal dedicated to naval history. It showcases the country’s maritime heritage, including models of ships, navigational instruments, royal barges, and artifacts from the Age of Discoveries. The museum provides a comprehensive overview of Portugal’s seafaring history and its role in global exploration.",
       "pt": "O Museu de Marinha, localizado em Belém, é um dos mais importantes museus de Portugal dedicados à história naval. Exibe o património marítimo do país, incluindo modelos de navios, instrumentos de navegação, embarcações reais e artefactos da Era dos Descobrimentos. O museu oferece uma visão abrangente da história marítima de Portugal e do seu papel na exploração global."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-maritime-museum.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-maritime-museum-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-maritime-museum-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-maritime-museum-thumb-nail.png",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-maritime-museum-bg.jpeg",
+    "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-maritime-museum-bg.jpeg",
     "category": {
       "en": "Museum",
       "pt": "Museu"
@@ -467,7 +441,7 @@
       "en": "The Berardo Museum, located in the Belém Cultural Center, is one of Portugal’s most important collections of modern and contemporary art. It features works from major artistic movements of the 20th and 21st centuries, including pieces by renowned international artists. The museum offers a diverse and rotating exhibition program, providing visitors with insight into modern artistic expression.",
       "pt": "O Museu Coleção Berardo, localizado no Centro Cultural de Belém, é uma das mais importantes coleções de arte moderna e contemporânea em Portugal. Apresenta obras de grandes movimentos artísticos dos séculos XX e XXI, incluindo peças de artistas internacionais de renome. O museu oferece uma programação diversificada e rotativa, proporcionando aos visitantes uma visão da expressão artística moderna."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-berardo-museum.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-berardo-museum-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-berardo-museum-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-berardo-museum-bg.jpg",
     "category": {
@@ -494,7 +468,7 @@
       "en": "Santo Amaro Docks is a popular waterfront area located under the 25 de Abril Bridge in Lisbon. It is known for its vibrant nightlife, restaurants, and bars set along the river. The area offers scenic views of the Tagus River and the bridge, making it a favored spot for both dining and leisure. It is especially lively in the evenings, attracting locals and visitors looking for a relaxed yet dynamic atmosphere by the water.",
       "pt": "As Docas de Santo Amaro são uma zona ribeirinha popular localizada sob a Ponte 25 de Abril em Lisboa. É conhecida pela sua vida noturna animada, restaurantes e bares junto ao rio. A área oferece vistas panorâmicas sobre o rio Tejo e a ponte, sendo um local muito procurado tanto para refeições como para lazer. É especialmente movimentada à noite, atraindo locais e visitantes que procuram um ambiente descontraído junto à água."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-santo-amaro-docks.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-santo-amaro-docks-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-santo-amaro-docks-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-santo-amaro-docks-bg.jpg",
     "category": {
@@ -521,8 +495,8 @@
       "en": "The Santa Justa Elevator is a historic vertical lift located in the Baixa district of Lisbon. Designed by Raoul Mesnier du Ponsard and inaugurated in 1902, it connects the lower streets of Baixa with Carmo Square. Built in an elegant neo-Gothic style, the elevator is both a functional transport system and a popular tourist attraction. At the top, visitors can enjoy panoramic views over Lisbon, including the city center, the castle, and surrounding districts.",
       "pt": "O Elevador de Santa Justa é um elevador vertical histórico localizado na zona da Baixa em Lisboa. Projetado por Raoul Mesnier du Ponsard e inaugurado em 1902, liga as ruas baixas da Baixa ao Largo do Carmo. Construído em estilo neogótico elegante, o elevador é tanto um meio de transporte funcional como uma atração turística popular. No topo, os visitantes podem desfrutar de vistas panorâmicas sobre Lisboa, incluindo o centro da cidade, o castelo e as zonas envolventes."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-santa-justa-elevator.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon-guide-santa-justa-elevator-bg.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-santa-justa-elevator-thumb-nail.avif",
+    "image_bg": "../src/assets/images/desktop/lisbon-guide-santa-justa-elevator-bg.jpeg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-santa-justa-elevator-bg.jpg",
     "category": {
       "en": "Monument",
@@ -530,7 +504,7 @@
     },
     "address": "R. de Santa Justa, 1100-053 Lisboa",
     "phone": "+351 21 361 3054",
-    "website_link": "https://www.elevadordesantajusta.pt/"
+    "website_link": "https://www.visitlisboa.com/en/places/elevador-de-santa-justa"
   },
   {
     "id": "a-ginjinha",

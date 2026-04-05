@@ -58,7 +58,7 @@ const Detail = () => {
       <div className="relative h-[60vh] overflow-hidden">
         <motion.div style={{ y }} className="absolute inset-0 z-0">
           <picture className="w-full h-full">
-            <source media="(max-width: 767px)" srcSet={place.image_bg_mobile || place.image} />
+            <source media="(max-width: 600px)" srcSet={place.image_bg_mobile || place.image} />
             <img
               src={place.image_bg || place.image}
               alt={title}

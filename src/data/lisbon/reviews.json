@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Sarah K.",
+    "name": "Sarah Sullivan",
     "city": {
       "en": "New York",
       "pt": "Nova Iorque"
@@ -11,48 +11,48 @@
       "en": "Perfect amount of info for a short Lisbon trip!",
       "pt": "Quantidade perfeita de informações para uma curta viagem a Lisboa!"
     },
-    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-1.png"
   },
   {
     "id": "2",
-    "name": "João P.",
+    "name": "Michael Turner",
     "city": {
-      "en": "Porto",
-      "pt": "Porto"
+      "en": "California",
+      "PT": "California"
     },
     "rating": 5,
     "review": {
       "en": "The restaurant recommendations were amazing!",
       "pt": "As recomendações de restaurantes foram incríveis!"
     },
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-3.png"
   },
   {
     "id": "3",
-    "name": "Elena M.",
+    "name": "Olivia Martin",
     "city": {
-      "en": "Madrid",
-      "pt": "Madrid"
+      "en": "Canada",
+      "pt": "Canada"
     },
     "rating": 4,
     "review": {
-      "en": "Very helpful guide for first-time visitors.",
-      "pt": "Guia muito útil para visitantes de primeira viagem."
+      "en": "Very helpful guide for first-time visitors. Muito Obrigada! 😊",
+      "pt": "Guia muito útil para visitantes de primeira viagem. Muito Obrigada! 😊"
     },
-    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-2.png"
   },
   {
     "id": "4",
-    "name": "Elena M.",
+    "name": "Philippe Moreau",
     "city": {
-      "en": "Madrid",
-      "pt": "Madrid"
+      "en": "Paris",
+      "pt": "Paris"
     },
     "rating": 4,
     "review": {
-      "en": "Very helpful guide for first-time visitors.",
-      "pt": "Guia muito útil para visitantes de primeira viagem."
+      "en": "Clear, helpful Lisbon guide for easy exploring.",
+      "pt": "Guia de Lisboa claro e muito útil."
     },
-    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-4.png"
   }
 ]
