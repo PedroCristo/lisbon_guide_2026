@@ -8,22 +8,49 @@
       "pt": "Palácio da Pena"
     },
     "shortDescription": {
-      "en": "A Romanticist castle in Sintra, standing on the top of a hill above the town.",
-      "pt": "Um castelo romântico em Sintra, situado no topo de uma colina acima da vila."
+      "en": "A 19th-century Romanticist palace located in the hills of Sintra, known for its vivid colors and panoramic views.",
+      "pt": "Um palácio romântico do século XIX localizado nas colinas de Sintra, conhecido pelas suas cores vibrantes e vistas panorâmicas."
     },
     "fullDescription": {
-      "en": "The Park and Palace of Pena is a Romanticist castle in São Pedro de Penaferrim, in the municipality of Sintra, on the Portuguese Riviera. The castle stands on the top of a hill in the Sintra Mountains above the town of Sintra, and on a clear day it can be easily seen from Lisbon and much of its metropolitan area. It is a national monument and constitutes one of the major expressions of 19th-century Romanticism in the world. The palace is a UNESCO World Heritage Site and one of the Seven Wonders of Portugal.",
-      "pt": "O Parque e Palácio da Pena é um castelo romântico em São Pedro de Penaferrim, no concelho de Sintra, na Riviera Portuguesa. O castelo situa-se no topo de uma colina na Serra de Sintra, acima da vila de Sintra, e num dia limpo pode ser facilmente visto de Lisboa e de grande parte da sua área metropolitana. É um monumento nacional e constitui uma das principais expressões do romantismo do século XIX no mundo. O palácio é Património Mundial da UNESCO e uma das Sete Maravilhas de Portugal."
+      "en": "Pena Palace is a Romanticist palace situated in the Sintra mountains of Portugal. Built in the 19th century, it is one of the most iconic landmarks in the country, featuring a mix of architectural styles and bright colors. Surrounded by dense forests, it sits atop a hill and offers sweeping views of the region. It is recognized as a UNESCO World Heritage Site and attracts visitors from around the world.",
+      "pt": "O Palácio da Pena é um palácio romântico situado na Serra de Sintra, em Portugal. Construído no século XIX, é um dos marcos mais icónicos do país, apresentando uma mistura de estilos arquitetónicos e cores vivas. Rodeado por florestas densas, encontra-se no topo de uma colina e oferece vistas amplas da região. É classificado como Património Mundial da UNESCO e atrai visitantes de todo o mundo."
     },
-    "image": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=1000",
-    "image_bg": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=2000",
-    "image_bg_mobile": "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=1000",
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-pena-palace-thumb-nail.png",
+    "image_bg": "../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-pena-palace-bg.png",
+    "image_bg_mobile": "../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-pena-palace-bg.jpg",
     "category": {
       "en": "Palace",
       "pt": "Palácio"
     },
-    "address": "Estrada da Pena, 2710-609 Sintra",
+    "address": "Estrada da Pena, 2710-609 Sintra, Portugal",
     "phone": "+351 21 923 7300",
     "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-nacional-da-pena/"
+  },
+  {
+    "id": "palacio-da-vila",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Sintra National Palace",
+      "pt": "Palácio Nacional de Sintra"
+    },
+    "shortDescription": {
+      "en": "A historic royal palace in Sintra known for its distinctive twin chimneys and rich Moorish and Gothic architectural elements.",
+      "pt": "Um palácio real histórico em Sintra conhecido pelas suas chaminés duplas distintas e pela sua arquitetura com influências mouriscas e góticas."
+    },
+    "fullDescription": {
+      "en": "The Sintra National Palace, also known as Palácio da Vila, is a medieval royal residence located in the historic center of Sintra. It is one of the best-preserved royal palaces in Portugal, featuring a unique blend of architectural styles developed over centuries. Its most recognizable features are the two large conical chimneys. The palace served as a residence for Portuguese royalty for several centuries and is now a major cultural landmark and museum.",
+      "pt": "O Palácio Nacional de Sintra, também conhecido como Palácio da Vila, é uma residência real medieval localizada no centro histórico de Sintra. É um dos palácios reais mais bem preservados de Portugal, apresentando uma mistura única de estilos arquitetónicos desenvolvidos ao longo de vários séculos. As suas características mais reconhecíveis são as duas grandes chaminés cónicas. O palácio serviu como residência da família real portuguesa durante vários séculos e é atualmente um importante marco cultural e museu."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-national-palace-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-national-palace-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-national-palace-bg.jpg",
+    "category": {
+      "en": "Palace",
+      "pt": "Palácio"
+    },
+    "address": "Largo Rainha Dona Amélia, 2710-616 Sintra, Portugal",
+    "phone": "+351 21 923 7300",
+    "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/palacio-nacional-sintra/"
   }
 ]

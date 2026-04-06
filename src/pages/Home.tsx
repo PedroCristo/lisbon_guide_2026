@@ -10,6 +10,7 @@ import PlaceCard from "../components/PlaceCard";
 import hero1 from "../assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-1.avif";
 import hero2 from "../assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-3.jpg";
 import bairroImg from "../assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-1.png";
+import logoIcon from "../assets/images/suport/lisbon-guide-favicon250X250-no-bg.png";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -125,9 +126,19 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-8 tracking-tight">
-              {t("home.welcome_title")}
-            </h2>
+            <div className="flex flex-col items-start">
+              {/* Logo */}
+              <img
+                src={logoIcon}
+                alt="Lisbon Guide Logo"
+                className="h-[80px] w-auto mb-4"
+              />
+
+              {/* Title */}
+              <h2 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight">
+                {t("home.welcome_title")}
+              </h2>
+            </div>
             <p className="text-gray-600 text-lg leading-relaxed mb-12 max-w-xl">
               {t("home.welcome_description")}
             </p>
@@ -200,9 +211,9 @@ const Home = () => {
           </h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full" />
         </div>
-    
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {previewPlaces.map((place: typeof seePlaces[0]) => (
+          {previewPlaces.map((place: (typeof seePlaces)[0]) => (
             <PlaceCard
               key={place.id}
               id={place.id}

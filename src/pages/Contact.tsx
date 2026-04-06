@@ -88,7 +88,7 @@ const Contact = () => {
                 <p className="text-white">{t('contact.info.address')}</p>
               </div>
             </div>
-
+{/* 
             <div className="flex items-start space-x-4">
               <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
                 <Phone size={20} />
@@ -97,7 +97,7 @@ const Contact = () => {
                 <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t('contact.info.labels.phone')}</p>
                 <p className="text-white">{t('contact.info.phone')}</p>
               </div>
-            </div>
+            </div> */}
 
             <div className="flex items-start space-x-4">
               <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">

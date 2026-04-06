@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import seePlaces from "../data/lisbon/see.json";
 import PlaceCard from "../components/PlaceCard";
 import CategoryDropdown from "../components/CategoryDropdown";
-import Pagination from "../components/pagination";
+import Pagination from "../components/Pagination";
 import { section } from "motion/react-client";
 
 const Explore = () => {
