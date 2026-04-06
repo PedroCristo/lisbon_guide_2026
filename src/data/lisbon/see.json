@@ -738,7 +738,7 @@
       "en": "Lisbon Zoo is one of the oldest and most popular zoos in Portugal, offering a wide range of animal species from around the world. The zoo features themed habitats, a cable car, and educational presentations focused on wildlife conservation. It is a family-friendly attraction where visitors can explore diverse ecosystems and learn about global biodiversity.",
       "pt": "O Jardim Zoológico de Lisboa é um dos mais antigos e populares de Portugal, oferecendo uma grande variedade de espécies animais de todo o mundo. O zoo inclui habitats temáticos, um teleférico e apresentações educativas focadas na conservação da vida selvagem. É uma atração familiar onde os visitantes podem explorar diversos ecossistemas e aprender sobre a biodiversidade global."
     },
-    "image": "../src/assets/images/desktop/lisbon-guide-lisbon-zoo.jpg",
+    "image": "../src/assets/images/desktop/lisbon-guide-lisbon-zoo-thumb-nail.jpg",
     "image_bg": "../src/assets/images/desktop/lisbon-guide-lisbon-zoo-bg.jpg",
     "image_bg_mobile": "../src/assets/images/mobile/lisbon-guide-lisbon-zoo-bg.jpg",
     "category": {

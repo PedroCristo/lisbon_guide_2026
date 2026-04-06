@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
@@ -24,12 +24,22 @@ const Home = () => {
   // Show only first 3 places from 'see' as preview
   // const previewPlaces = seePlaces.slice(0, 3);
 
-  // Shuffle array and take first 3
+  // Select 3 random places and persist them in sessionStorage for the session
   const shuffleArray = (array: any[]) => {
     return [...array].sort(() => Math.random() - 0.5);
   };
 
-  const previewPlaces = shuffleArray(seePlaces).slice(0, 3);
+  const previewPlaces = useMemo(() => {
+    const saved = sessionStorage.getItem("previewPlaces");
+
+    if (saved) return JSON.parse(saved);
+
+    const shuffled = shuffleArray(seePlaces).slice(0, 3);
+    sessionStorage.setItem("previewPlaces", JSON.stringify(shuffled));
+
+    return shuffled;
+  }, []);
+
   const currentReview = reviews[currentReviewIndex];
 
   React.useEffect(() => {
@@ -190,9 +200,9 @@ const Home = () => {
           </h2>
           <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full" />
         </div>
-
+    
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {previewPlaces.map((place) => (
+          {previewPlaces.map((place: typeof seePlaces[0]) => (
             <PlaceCard
               key={place.id}
               id={place.id}
