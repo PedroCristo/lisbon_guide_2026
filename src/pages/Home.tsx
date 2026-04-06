@@ -7,9 +7,9 @@ import seePlaces from "../data/lisbon/see.json";
 import eatPlaces from "../data/lisbon/eat.json";
 import reviews from "../data/lisbon/reviews.json";
 import PlaceCard from "../components/PlaceCard";
-import hero1 from "../assets/images/desktop/lisbon-guide-torre-belem-1.avif";
-import hero2 from "../assets/images/desktop/lisbon-guide-jeronimos-monestery-3.jpg";
-import bairroImg from "../assets/images/desktop/lisbon-guide-bairro-alto-1.png";
+import hero1 from "../assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-1.avif";
+import hero2 from "../assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-3.jpg";
+import bairroImg from "../assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-1.png";
 
 const Home = () => {
   const { t, i18n } = useTranslation();

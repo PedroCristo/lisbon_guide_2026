@@ -50,8 +50,7 @@ const About = () => {
         >
           <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&q=80&w=1000"
-              alt="Lisbon Streets"
+              src="../src/assets/images/desktop/lisbon/places/lisbon-guide-about.jpeg"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
