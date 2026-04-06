@@ -14,3 +14,30 @@
 .scroll-to-top:hover {
   cursor: pointer;
 }
+
+/* Drop Down Menu */
+.drop-down-menu {
+  border: 0 !important;
+}
+
+/* hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media only screen and (max-width: 640px) {
+  .drop-down-menu {
+    width: 320px !important;
+  }
+
+  .explore-card {
+    padding: 0 !important;
+  }
+}
+
+

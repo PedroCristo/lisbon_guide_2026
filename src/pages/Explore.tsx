@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import seePlaces from "../data/lisbon/see.json";
 import PlaceCard from "../components/PlaceCard";
 import CategoryDropdown from "../components/CategoryDropdown";
+import Pagination from "../components/pagination";
+import { section } from "motion/react-client";
 
 const Explore = () => {
   const { t, i18n } = useTranslation();
@@ -12,6 +14,9 @@ const Explore = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const itemsPerPage = 12;
+
+  // Ref for grid scroll
+  const gridRef = useRef<HTMLDivElement | null>(null);
 
   // Get unique categories
   const categories = Array.from(
@@ -26,6 +31,21 @@ const Explore = () => {
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedCategory]);
+
+  // Scroll to grid when page changes
+  useEffect(() => {
+    const element = gridRef.current;
+    if (!element) return;
+
+    const yOffset = -450; // adjust for navbar height
+    const y =
+      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+  }, [currentPage]);
 
   // Filter places
   const filteredPlaces = seePlaces.filter((place) => {
@@ -57,7 +77,6 @@ const Explore = () => {
           {t("explore.subtitle")}
         </p>
 
-        {/* Filter Dropdown */}
         <CategoryDropdown
           categories={categories}
           selectedCategory={selectedCategory}
@@ -67,7 +86,10 @@ const Explore = () => {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        ref={gridRef}
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      >
         {paginatedPlaces.map((place) => (
           <PlaceCard
             key={place.id}
@@ -86,44 +108,12 @@ const Explore = () => {
         ))}
       </div>
 
-      {/* Pagination Controls */}
-      {totalPages > 1 && (
-        <div className="flex justify-center mt-12 gap-4">
-          <button
-            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-            disabled={currentPage === 1}
-            className="
-            px-4 py-2 bg-gray-200 rounded
-            cursor-pointer
-            hover:bg-orange-300
-            active:scale-95
-            transition-all duration-200
-            disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            Prev
-          </button>
-
-          <span className="px-4 py-2">
-            {currentPage} / {totalPages}
-          </span>
-
-          <button
-            onClick={() =>
-              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-            }
-            disabled={currentPage === totalPages}
-            className="
-            px-4 py-2 bg-gray-200 rounded
-            cursor-pointer
-            hover:bg-orange-300 hover:text-white
-            active:scale-95
-            transition-all duration-200
-            disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            Next
-          </button>
-        </div>
-      )}
+      {/* Pagination Component */}
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={setCurrentPage}
+      />
     </div>
   );
 };

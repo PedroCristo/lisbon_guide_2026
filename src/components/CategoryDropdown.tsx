@@ -54,7 +54,7 @@ const CategoryDropdown: React.FC<CategoryDropdownProps> = ({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
             transition={{ duration: 0.2 }}
-            className="absolute left-0 mt-2 w-full md:w-64 rounded-2xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 z-50 overflow-hidden border border-gray-50"
+            className="drop-down-menu absolute left-0 mt-2 w-full md:w-80 sm:w-80 rounded-2xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 z-50 overflow-hidden border border-gray-50"
           >
             <div className="py-2 max-h-64 overflow-y-auto">
               <button
