@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import CookieConsent from "./components/CookieConsent";
-import BackToTop from "./components/backToTop";
+import BackToTop from "./components/BackToTop";
 // Pages
 import Home from "./pages/Home";
 import Explore from "./pages/Explore";
