@@ -1,29 +1,56 @@
 [
   {
-    "id": "boca-do-inferno",
+    "id": "cascais-marina",
     "type": "see",
     "location": "cascais",
     "title": {
-      "en": "Boca do Inferno",
-      "pt": "Boca do Inferno"
+      "en": "Cascais Marina",
+      "pt": "Marina de Cascais"
     },
     "shortDescription": {
-      "en": "A unique cliff formation close to Cascais, where the sea crashes against the rocks.",
-      "pt": "Uma formação rochosa única perto de Cascais, onde o mar bate contra as rochas."
+      "en": "A modern marina in Cascais offering yachts, waterfront views, restaurants, and a vibrant coastal atmosphere.",
+      "pt": "Uma marina moderna em Cascais com iates, vistas sobre o mar, restaurantes e um ambiente costeiro vibrante."
     },
     "fullDescription": {
-      "en": "Boca do Inferno (Hell's Mouth) is a chasm located in the seaside cliffs close to the Portuguese town of Cascais. The seawater has access to the deep bottom of the chasm and vigorously strikes its rocky walls, making it a popular tourist attraction. The name was given due to the analogy of the giant waves crashing into the cave, creating a thunderous sound and a spectacular spray.",
-      "pt": "A Boca do Inferno é um abismo localizado nas falésias à beira-mar perto da vila portuguesa de Cascais. A água do mar tem acesso ao fundo profundo do abismo e atinge vigorosamente as suas paredes rochosas, tornando-o uma atração turística popular. O nome foi dado devido à analogia das ondas gigantes que batem na caverna, criando um som trovejante e um spray espetacular."
+      "en": "Cascais Marina is a contemporary marina located along the Cascais coastline, known for its elegant waterfront setting and nautical lifestyle. It hosts numerous yachts and boats and is surrounded by restaurants, cafes, and leisure spaces. The marina is a popular spot for walking, dining, and enjoying views of the Atlantic Ocean, making it one of the key attractions in Cascais for both visitors and locals.",
+      "pt": "A Marina de Cascais é uma marina moderna localizada ao longo da costa de Cascais, conhecida pelo seu ambiente elegante à beira-mar e estilo de vida náutico. Alberga numerosos iates e embarcações e está rodeada por restaurantes, cafés e espaços de lazer. A marina é um local popular para passeios, refeições e para apreciar as vistas sobre o Oceano Atlântico, sendo uma das principais atrações de Cascais tanto para visitantes como para locais."
     },
-    "image": "https://cdn.travel-in-portugal.com/sites/default/files/attractions/boca-do-inferno-cascais.jpg",
-    "image_bg": "https://cdn.travel-in-portugal.com/sites/default/files/attractions/boca-do-inferno-cascais.jpg",
-    "image_bg_mobile": "https://cdn.travel-in-portugal.com/sites/default/files/attractions/boca-do-inferno-cascais.jpg",
+    "image": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
     "category": {
-      "en": "Nature",
-      "pt": "Natureza"
+      "en": "Marina",
+      "pt": "Marina"
     },
-    "address": "Av. Rei Humberto II de Itália, 2750-642 Cascais",
-    "phone": "N/A",
-    "website_link": ""
+    "address": "Casa de S. Bernardo, 2750-800 Cascais",
+    "phone": "+351 214 824 800",
+    "website_link": "https://www.marinacascais.pt/"
+  },
+  {
+    "id": "museu-condes-de-castro-guimaraes",
+    "type": "see",
+    "location": "cascais",
+    "title": {
+      "en": "Museu Condes de Castro Guimarães",
+      "pt": "Museu Condes de Castro Guimarães"
+    },
+    "shortDescription": {
+      "en": "A historic museum housed in a romantic palace overlooking the sea, showcasing art, antiques, and rare books.",
+      "pt": "Um museu histórico instalado num palácio romântico com vista para o mar, exibindo arte, antiguidades e livros raros."
+    },
+    "fullDescription": {
+      "en": "Museu Condes de Castro Guimarães is located in a picturesque palace built in the early 20th century in Cascais. The building combines romantic and neo-Gothic architectural styles and overlooks the sea and Santa Marta Bay. Inside, the museum features a rich collection of art, furniture, ceramics, and rare manuscripts. The surrounding gardens and coastal views make it one of the most beautiful cultural landmarks in Cascais, offering both historical insight and scenic surroundings.",
+      "pt": "O Museu Condes de Castro Guimarães está localizado num palácio pitoresco construído no início do século XX em Cascais. O edifício combina estilos arquitetónicos românticos e neogóticos e tem vista para o mar e para a Baía de Santa Marta. No interior, o museu apresenta uma rica coleção de arte, mobiliário, cerâmica e manuscritos raros. Os jardins envolventes e as vistas costeiras tornam-no num dos mais belos marcos culturais de Cascais, oferecendo tanto valor histórico como paisagístico."
+    },
+    "image": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
+    "category": {
+      "en": "Museum",
+      "pt": "Museu"
+    },
+    "address": "Av. Rei Humberto II de Itália, 2750-319 Cascais, Portugal",
+    "phone": "+351 21 481 5303",
+    "website_link": "https://www.cascais.pt/museu-condes-de-castro-guimaraes"
   }
 ]

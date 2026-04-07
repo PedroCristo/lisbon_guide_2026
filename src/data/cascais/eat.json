@@ -1,29 +1,29 @@
 [
   {
-    "id": "mar-do-inferno",
+    "id": "taberna-clandestina-cascais",
     "type": "eat",
     "location": "cascais",
     "title": {
-      "en": "Mar do Inferno",
-      "pt": "Mar do Inferno"
+      "en": "Taberna Clandestina Cascais",
+      "pt": "Taberna Clandestina Cascais"
     },
     "shortDescription": {
-      "en": "A renowned seafood restaurant in Cascais, located right by the Boca do Inferno cliffs.",
-      "pt": "Um conceituado restaurante de marisco em Cascais, localizado junto às falésias da Boca do Inferno."
+      "en": "A cozy restaurant in Cascais known for creative Portuguese dishes, tapas-style plates, and a relaxed atmosphere.",
+      "pt": "Um restaurante acolhedor em Cascais conhecido por pratos criativos portugueses, tapas e um ambiente descontraído."
     },
     "fullDescription": {
-      "en": "Mar do Inferno is one of the most famous seafood restaurants in Cascais. Family-run for decades, it offers the freshest fish and shellfish from the Atlantic. The location is spectacular, offering views of the rugged coastline. It's the perfect place to enjoy traditional Portuguese seafood dishes like 'Arroz de Marisco' or simply grilled fish with a glass of local wine.",
-      "pt": "O Mar do Inferno é um dos restaurantes de marisco mais famosos de Cascais. Gerido pela mesma família há décadas, oferece o peixe e marisco mais frescos do Atlântico. A localização é espetacular, oferecendo vistas da costa acidentada. É o local perfeito para saborear pratos tradicionais de marisco português como o 'Arroz de Marisco' ou simplesmente peixe grelhado com um copo de vinho local."
+      "en": "Taberna Clandestina Cascais is a popular restaurant offering a modern take on traditional Portuguese cuisine. The menu features small plates, fresh ingredients, and a variety of creative dishes designed for sharing. With its warm and intimate atmosphere, it is a favorite among both locals and visitors looking for a casual yet high-quality dining experience in Cascais. The restaurant combines contemporary presentation with authentic flavors in a stylish setting.",
+      "pt": "A Taberna Clandestina Cascais é um restaurante popular que oferece uma abordagem moderna à cozinha tradicional portuguesa. O menu inclui pratos de partilha, ingredientes frescos e uma variedade de criações gastronómicas. Com um ambiente acolhedor e intimista, é um favorito tanto entre locais como visitantes que procuram uma experiência gastronómica casual mas de qualidade em Cascais. O restaurante combina apresentação contemporânea com sabores autênticos num espaço elegante."
     },
-    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=1000",
-    "image_bg": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=2000",
-    "image_bg_mobile": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80&w=1000",
+    "image": "../../src/assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
     "category": {
-      "en": "Seafood",
-      "pt": "Marisqueira"
+      "en": "Traditional",
+      "pt": "Tradicional"
     },
-    "address": "Av. Rei Humberto II de Itália, 2750-800 Cascais",
-    "phone": "+351 21 483 2218",
-    "website_link": "https://www.mardoinferno.pt/"
+    "address": "R. Amarela 6, 2750-542 Cascais, Portugal",
+    "phone": "+351 916  229 630",
+    "website_link": "https://www.tabernaclandestina.pt//"
   }
 ]

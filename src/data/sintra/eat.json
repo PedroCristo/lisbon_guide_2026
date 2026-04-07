@@ -1,6 +1,33 @@
 [
   {
-    "id": "piriquita",
+    "id": "nortada-praia-grande",
+    "type": "eat",
+    "location": "sintra",
+    "title": {
+      "en": "Nortada Praia Grande",
+      "pt": "Nortada Praia Grande"
+    },
+    "shortDescription": {
+      "en": "A beachfront restaurant at Praia Grande known for fresh seafood, relaxed atmosphere, and ocean views.",
+      "pt": "Um restaurante à beira-mar na Praia Grande conhecido pelos pratos de marisco fresco, ambiente descontraído e vistas para o oceano."
+    },
+    "fullDescription": {
+      "en": "Nortada Praia Grande is a seaside restaurant located directly on Praia Grande in Sintra. It is well known for its fresh seafood, grilled fish, and Mediterranean-inspired dishes. The restaurant offers a relaxed beachfront setting with panoramic views of the Atlantic Ocean, making it a popular spot for both locals and visitors. Its proximity to the beach allows guests to enjoy meals while experiencing the natural coastal scenery and vibrant surf culture of the area.",
+      "pt": "O Nortada Praia Grande é um restaurante localizado mesmo na Praia Grande, em Sintra. É conhecido pelo seu marisco fresco, peixe grelhado e pratos de inspiração mediterrânica. O restaurante oferece um ambiente descontraído à beira-mar, com vistas panorâmicas sobre o Oceano Atlântico, tornando-se um local popular tanto para locais como para visitantes. A sua proximidade à praia permite desfrutar das refeições enquanto se aprecia a paisagem costeira e a cultura de surf da região."
+    },
+    "image": "../../src/assets/images/desktop/sintra/to-eat/lisbon-guide-sintra-nortada-praia-grande-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/to-eat/lisbon-guide-sintra-nortada-praia-grande-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/to-eat/lisbon-guide-sintra-nortada-praia-grande-bg.jpg",
+    "category": {
+      "en": "Seafood",
+      "pt": "Marisco"
+    },
+    "address": "Av. Alfredo Coelho 8, 2705-329 Sintra, Portugal",
+    "phone": "+351 21 929 1516",
+    "website_link": "https://restaurantenortada.com/"
+  },
+  {
+    "id": "casa-piriquita",
     "type": "eat",
     "location": "sintra",
     "title": {
@@ -12,17 +39,17 @@
       "pt": "Uma pastelaria histórica em Sintra, famosa pelos seus Travesseiros e Queijadas."
     },
     "fullDescription": {
-      "en": "Casa Piriquita was founded in 1862 and has been a staple of Sintra's gastronomy ever since. It is world-famous for its 'Travesseiros' (puff pastry filled with almond cream) and 'Queijadas de Sintra' (small cheese-based tarts). Located in the heart of the historic center, it's a must-visit for anyone with a sweet tooth exploring the mystical hills of Sintra.",
-      "pt": "A Casa Piriquita foi fundada em 1862 e tem sido um marco da gastronomia de Sintra desde então. É mundialmente famosa pelos seus 'Travesseiros' (massa folhada recheada com creme de amêndoa) e 'Queijadas de Sintra' (pequenas tartes à base de queijo). Localizada no coração do centro histórico, é uma visita obrigatória para quem gosta de doces e explora as colinas místicas de Sintra."
+      "en": "Casa Piriquita is one of the most iconic pastry shops in Sintra, established in 1862. It is renowned for its traditional sweets, especially Travesseiros, a puff pastry filled with almond cream, and Queijadas de Sintra, small cheese-based tarts. Located in the historic center of Sintra, it has become a must-visit spot for both tourists and locals seeking authentic Portuguese pastries in a historic setting.",
+      "pt": "A Casa Piriquita é uma das pastelarias mais icónicas de Sintra, fundada em 1862. É conhecida pelos seus doces tradicionais, especialmente os Travesseiros, uma massa folhada recheada com creme de amêndoa, e as Queijadas de Sintra, pequenas tartes à base de queijo. Localizada no centro histórico de Sintra, tornou-se uma paragem obrigatória para turistas e locais que procuram doces portugueses autênticos num ambiente histórico."
     },
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
-    "image_bg": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=2000",
-    "image_bg_mobile": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=1000",
+    "image": "../../src/assets/images/desktop/sintra/to-eat/lisbon-guide-sintra-casa-piriquita-thumb-nail.jpeg",
+    "image_bg": "../../src/assets/images/desktop/sintra/to-eat/lisbon-guide-sintra-casa-piriquita-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/to-eat/lisbon-guide-sintra-casa-piriquita-bg.jpg",
     "category": {
       "en": "Pastry Shop",
       "pt": "Pastelaria"
     },
-    "address": "R. das Padarias 1, 2710-603 Sintra",
+    "address": "R. das Padarias 1, 2710-603 Sintra, Portugal",
     "phone": "+351 21 923 0626",
     "website_link": "https://www.piriquita.pt/"
   }

@@ -52,5 +52,167 @@
     "address": "Largo Rainha Dona Amélia, 2710-616 Sintra, Portugal",
     "phone": "+351 21 923 7300",
     "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/palacio-nacional-sintra/"
+  },
+  {
+    "id": "castelo-dos-mouros",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Moorish Castle",
+      "pt": "Castelo dos Mouros"
+    },
+    "shortDescription": {
+      "en": "A medieval hilltop fortress founded in the 10th century, offering panoramic views over Sintra and the Atlantic coast.",
+      "pt": "Uma fortaleza medieval no topo da colina, fundada no século X, com vistas panorâmicas sobre Sintra e a costa atlântica."
+    },
+    "fullDescription": {
+      "en": "The Moorish Castle is a medieval fortress founded in the 10th century during the Muslim occupation of the Iberian Peninsula. Strategically built on the peaks of the Sintra mountains, it served to defend the surrounding region and monitor the coastline. Today, visitors can walk along its ancient stone walls and enjoy breathtaking views of Sintra, the Atlantic Ocean, and nearby landmarks such as Pena Palace.",
+      "pt": "O Castelo dos Mouros é uma fortaleza medieval fundada no século X durante a ocupação muçulmana da Península Ibérica. Construído estrategicamente nos pontos mais altos da Serra de Sintra, servia para defender a região e vigiar a costa. Atualmente, os visitantes podem percorrer as suas muralhas antigas e desfrutar de vistas deslumbrantes sobre Sintra, o Oceano Atlântico e monumentos próximos como o Palácio da Pena."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-castelo-dos-mouros-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-castelo-dos-mouros-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-castelo-dos-mouros-bg.jpg",
+    "category": {
+      "en": "Castle",
+      "pt": "Castelo"
+    },
+    "address": "2710-405 Sintra, Portugal",
+    "phone": "+351 21 923 7300",
+    "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/castelo-dos-mouros/"
+  },
+  {
+    "id": "monserrate-palace",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Monserrate Palace",
+      "pt": "Palácio de Monserrate"
+    },
+    "shortDescription": {
+      "en": "An exotic 19th-century palace surrounded by lush gardens, blending Gothic, Indian, and Moorish architectural styles.",
+      "pt": "Um palácio exótico do século XIX rodeado por jardins luxuriantes, combinando estilos arquitetónicos gótico, indiano e mourisco."
+    },
+    "fullDescription": {
+      "en": "Monserrate Palace is a unique 19th-century residence located in the hills of Sintra. Known for its eclectic architecture, it blends Gothic, Indian, and Moorish influences into a harmonious design. The palace is surrounded by one of the most beautiful botanical gardens in Portugal, featuring plants from all over the world. It is part of the UNESCO World Heritage Site of Sintra’s Cultural Landscape and is a must-visit for its architecture and natural beauty.",
+      "pt": "O Palácio de Monserrate é uma residência única do século XIX localizada nas colinas de Sintra. Conhecido pela sua arquitetura eclética, combina influências góticas, indianas e mouriscas num design harmonioso. O palácio está rodeado por um dos mais belos jardins botânicos de Portugal, com plantas de todo o mundo. Faz parte da Paisagem Cultural de Sintra, classificada como Património Mundial da UNESCO, sendo uma visita imperdível pela sua arquitetura e beleza natural."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-monserrate-palace-thumb-nail.jpeg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-monserrate-palace-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-monserrate-palace-bg.jpg",
+    "category": {
+      "en": "Palace",
+      "pt": "Palácio"
+    },
+    "address": "2710-405 Sintra, Portugal",
+    "phone": "+351 21 923 7300",
+    "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate/"
+  },
+  {
+    "id": "quinta-da-regaleira",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Quinta da Regaleira",
+      "pt": "Quinta da Regaleira"
+    },
+    "shortDescription": {
+      "en": "A mysterious estate in Sintra known for its gardens, underground tunnels, and symbolic architecture.",
+      "pt": "Uma propriedade misteriosa em Sintra conhecida pelos seus jardins, túneis subterrâneos e arquitetura simbólica."
+    },
+    "fullDescription": {
+      "en": "Quinta da Regaleira is a fascinating estate located in Sintra, famous for its romantic palace, lush gardens, and hidden tunnels. Built in the early 20th century, it is filled with symbolic elements inspired by alchemy, Masonry, and the Knights Templar. One of its most iconic features is the Initiation Well, a spiral staircase descending into the ground. The property is part of the UNESCO World Heritage Site of Sintra’s Cultural Landscape and offers a unique and mystical experience.",
+      "pt": "A Quinta da Regaleira é uma propriedade fascinante localizada em Sintra, famosa pelo seu palácio romântico, jardins luxuriantes e túneis escondidos. Construída no início do século XX, está repleta de elementos simbólicos inspirados na alquimia, maçonaria e nos Cavaleiros Templários. Uma das suas características mais icónicas é o Poço Iniciático, uma escadaria em espiral que desce até ao subsolo. A propriedade faz parte da Paisagem Cultural de Sintra, classificada como Património Mundial da UNESCO, oferecendo uma experiência única e mística."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-quinta-da-regaleira-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-quinta-da-regaleira-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-quinta-da-regaleira-bg.jpg",
+    "category": {
+      "en": "Palace",
+      "pt": "Palácio"
+    },
+    "address": "R. Barbosa du Bocage 5, 2710-567 Sintra, Portugal",
+    "phone": "+351 21 910 6650",
+    "website_link": "https://www.regaleira.pt/en/"
+  },
+  {
+    "id": "convento-dos-capuchos",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Convento dos Capuchos",
+      "pt": "Convento dos Capuchos"
+    },
+    "shortDescription": {
+      "en": "A 16th-century Franciscan convent known for its simplicity, harmony with nature, and minimalist living spaces.",
+      "pt": "Um convento franciscano do século XVI conhecido pela sua simplicidade, harmonia com a natureza e espaços de vida minimalistas."
+    },
+    "fullDescription": {
+      "en": "Convento dos Capuchos is a small Franciscan convent built in the 16th century, nestled deep within the Sintra mountains. It is renowned for its extreme simplicity, with tiny cells, cork-lined walls, and minimal architectural embellishments. The convent reflects the austere lifestyle of the Franciscan monks who sought solitude and closeness to nature. Surrounded by dense forest, it offers a peaceful and contemplative atmosphere, contrasting with the more ornate monuments of Sintra. Today, it is part of the Sintra Cultural Landscape UNESCO World Heritage Site.",
+      "pt": "O Convento dos Capuchos é um pequeno convento franciscano construído no século XVI, situado no interior da Serra de Sintra. É conhecido pela sua extrema simplicidade, com celas pequenas, paredes forradas a cortiça e uma arquitetura minimalista. O convento reflete o estilo de vida austero dos monges franciscanos que procuravam isolamento e proximidade com a natureza. Rodeado por uma floresta densa, oferece um ambiente tranquilo e contemplativo, em contraste com os monumentos mais ornamentados de Sintra. Atualmente, integra a Paisagem Cultural de Sintra classificada como Património Mundial da UNESCO."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-convento-dos-capuchos-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-convento-dos-capuchos-bg.jpeg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-convento-dos-capuchos-bg.jpg",
+    "category": {
+      "en": "Monastery",
+      "pt": "Mosteiro"
+    },
+    "address": "Estrada dos Capuchos, 2705-000 Sintra, Portugal",
+    "phone": "+351 21 923 7300",
+    "website_link": "https://www.parquesdesintra.pt/pt/parques-monumentos/convento-dos-capuchos/"
+  },
+  {
+    "id": "biester-palace",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Biester Palace and Park",
+      "pt": "Palácio e Parque Biester"
+    },
+    "shortDescription": {
+      "en": "A romantic 19th-century palace and park in Sintra, known for its elegant architecture and lush, peaceful surroundings.",
+      "pt": "Um palácio romântico do século XIX em Sintra, conhecido pela sua arquitetura elegante e jardins tranquilos e exuberantes."
+    },
+    "fullDescription": {
+      "en": "Biester Palace and Park is a 19th-century romantic estate located in Sintra, surrounded by dense vegetation and scenic landscapes. The palace is known for its refined architectural details, blending romantic and eclectic styles. The surrounding park offers walking paths, viewpoints, and a tranquil environment that reflects the natural beauty of Sintra. Although less crowded than other landmarks, it provides a unique and peaceful cultural experience within the UNESCO-listed landscape.",
+      "pt": "O Palácio e Parque Biester é uma propriedade romântica do século XIX localizada em Sintra, rodeada por vegetação densa e paisagens cénicas. O palácio destaca-se pelos seus detalhes arquitetónicos refinados, combinando estilos românticos e ecléticos. O parque envolvente oferece percursos pedonais, miradouros e um ambiente tranquilo que reflete a beleza natural de Sintra. Embora menos movimentado que outros monumentos, proporciona uma experiência cultural única e serena dentro da paisagem classificada como Património Mundial da UNESCO."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-biester-palace-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-biester-palace-bg.png",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-biester-palace-bg.jpg",
+    "category": {
+      "en": "Palace",
+      "pt": "Palácio"
+    },
+    "address": "RAv. Almeida Garrett, 1A 2710-567 Sintra, Portugal",
+    "phone": "+351 218 708 800",
+    "website_link": "https://www.biester.pt/"
+  },
+  {
+    "id": "praia-grande-praia-das-macas",
+    "type": "see",
+    "location": "sintra",
+    "title": {
+      "en": "Praia Grande & Praia das Maçãs",
+      "pt": "Praia Grande e Praia das Maçãs"
+    },
+    "shortDescription": {
+      "en": "Two neighboring Atlantic beaches in Sintra known for their scenic coastline, surf conditions, and relaxed seaside atmosphere.",
+      "pt": "Duas praias vizinhas do Atlântico em Sintra, conhecidas pela sua costa cénica, condições para surf e ambiente descontraído à beira-mar."
+    },
+    "fullDescription": {
+      "en": "Praia Grande and Praia das Maçãs are two adjacent beaches located along the Sintra coastline, both popular for their natural beauty and ocean views. Praia Grande is known for its wide sandy stretch, strong waves, and popularity among surfers, while Praia das Maçãs offers a more sheltered environment with a family-friendly atmosphere, restaurants, and the iconic seasonal tram connection to Sintra. Together, they form one of the most visited coastal areas in the region, offering opportunities for swimming, surfing, sunbathing, and coastal walks.",
+      "pt": "A Praia Grande e a Praia das Maçãs são duas praias adjacentes localizadas na costa de Sintra, ambas populares pela sua beleza natural e vistas sobre o oceano. A Praia Grande é conhecida pela sua extensa faixa de areia, ondas fortes e popularidade entre surfistas, enquanto a Praia das Maçãs apresenta um ambiente mais abrigado, com uma atmosfera familiar, restaurantes e o icónico elétrico sazonal que liga a Sintra. Em conjunto, formam uma das zonas costeiras mais visitadas da região, oferecendo oportunidades para nadar, surfar, apanhar sol e fazer caminhadas à beira-mar."
+    },
+    "image": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-praia-grande-praia-das-macas-thumb-nail.jpg",
+    "image_bg": "../../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-praia-grande-praia-das-macas-bg.jpg",
+    "image_bg_mobile": "../../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-praia-grande-praia-das-macas-bg.jpg",
+    "category": {
+      "en": "Beach",
+      "pt": "Praia"
+    },
+    "address": "Colares, Sintra, Portugal",
+    "phone": "",
+    "website_link": ""
   }
 ]
