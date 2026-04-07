@@ -15,9 +15,9 @@
       "en": "Taberna Clandestina Cascais is a popular restaurant offering a modern take on traditional Portuguese cuisine. The menu features small plates, fresh ingredients, and a variety of creative dishes designed for sharing. With its warm and intimate atmosphere, it is a favorite among both locals and visitors looking for a casual yet high-quality dining experience in Cascais. The restaurant combines contemporary presentation with authentic flavors in a stylish setting.",
       "pt": "A Taberna Clandestina Cascais é um restaurante popular que oferece uma abordagem moderna à cozinha tradicional portuguesa. O menu inclui pratos de partilha, ingredientes frescos e uma variedade de criações gastronómicas. Com um ambiente acolhedor e intimista, é um favorito tanto entre locais como visitantes que procuram uma experiência gastronómica casual mas de qualidade em Cascais. O restaurante combina apresentação contemporânea com sabores autênticos num espaço elegante."
     },
-    "image": "../../src/assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-thumb-nail.jpg",
-    "image_bg": "../../src/assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
-    "image_bg_mobile": "../../src/assets/images/mobile/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
+    "image": "../../assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
+    "image_bg_mobile": "../assets/images/mobile/cascais/to-eat/lisbon-guide-cascais-taberna-clandestina-bg.jpg",
     "category": {
       "en": "Traditional",
       "pt": "Tradicional"
