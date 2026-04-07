@@ -11,7 +11,7 @@
       "en": "Perfect amount of info for a short Lisbon trip!",
       "pt": "Quantidade perfeita de informações para uma curta viagem a Lisboa!"
     },
-    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-1.png"
+    "image": "../assets/images/reviews/lisbon-guide-review-1.png"
   },
   {
     "id": "2",
@@ -25,7 +25,7 @@
       "en": "The restaurant recommendations were amazing!",
       "pt": "As recomendações de restaurantes foram incríveis!"
     },
-    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-3.png"
+    "image": "../assets/images/reviews/lisbon-guide-review-3.png"
   },
   {
     "id": "3",
@@ -39,7 +39,7 @@
       "en": "Very helpful guide for first-time visitors. Muito Obrigada! 😊",
       "pt": "Guia muito útil para visitantes de primeira viagem. Muito Obrigada! 😊"
     },
-    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-2.png"
+    "image": "../assets/images/reviews/lisbon-guide-review-2.png"
   },
   {
     "id": "4",
@@ -53,6 +53,6 @@
       "en": "Clear, helpful Lisbon guide for easy exploring.",
       "pt": "Guia de Lisboa claro e muito útil."
     },
-    "image": "../src/assets/images/suport/reviews/lisbon-guide-review-4.png"
+    "image": "../assets/images/reviews/lisbon-guide-review-4.png"
   }
 ]
