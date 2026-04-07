@@ -17,6 +17,7 @@ import Detail from "./pages/Detail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import LocationPage from "./pages/LocationPage";
+import NotFound from "./pages/error/Notfound";
 
 import Preloader from "./components/utils/Preloader";
 
@@ -50,6 +51,8 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/around/:location/:type" element={<LocationPage />} />
+            {/* 404 fallback */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

@@ -118,5 +118,10 @@
     "message": "We use cookies to improve your experience on our website.",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "page404": {
+    "title": "Page not found",
+    "message": "The page you are looking for does not exist or has been moved.",
+    "cta": "Go back home"
   }
 }
