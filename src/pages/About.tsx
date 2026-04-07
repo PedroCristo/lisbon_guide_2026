@@ -1,6 +1,7 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
+import ReviewsCarousel from "../components/ReviewsCarousel";
 
 const About = () => {
   const { t } = useTranslation();
@@ -14,30 +15,46 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-8 tracking-tight">
-            {t('about.title')}
+            {t("about.title")}
           </h1>
           <p className="text-xl text-orange-500 font-medium mb-6 italic">
-            {t('about.mission')}
+            {t("about.mission")}
           </p>
           <p className="text-gray-600 text-lg leading-relaxed mb-8">
-            {t('about.description')}
+            {t("about.description")}
           </p>
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">01</div>
-              <p className="text-gray-900 font-medium">{t('about.features.01')}</p>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">
+                01
+              </div>
+              <p className="text-gray-900 font-medium">
+                {t("about.features.01")}
+              </p>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">02</div>
-              <p className="text-gray-900 font-medium">{t('about.features.02')}</p>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">
+                02
+              </div>
+              <p className="text-gray-900 font-medium">
+                {t("about.features.02")}
+              </p>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">03</div>
-              <p className="text-gray-900 font-medium">{t('about.features.03')}</p>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">
+                03
+              </div>
+              <p className="text-gray-900 font-medium">
+                {t("about.features.03")}
+              </p>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">04</div>
-              <p className="text-gray-900 font-medium">{t('about.features.04')}</p>
+              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center text-orange-500 font-bold">
+                04
+              </div>
+              <p className="text-gray-900 font-medium">
+                {t("about.features.04")}
+              </p>
             </div>
           </div>
         </motion.div>
@@ -50,17 +67,21 @@ const About = () => {
         >
           <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="../src/assets/images/desktop/lisbon/places/lisbon-guide-about.jpeg"
+              src="../assets/images/desktop/lisbon/places/lisbon-guide-about.jpeg"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
           </div>
           <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hidden md:block">
             <p className="text-4xl font-bold text-orange-500 mb-1">100%</p>
-            <p className="text-xs text-gray-400 uppercase tracking-widest font-bold">{t('about.stats.authentic')}</p>
+            <p className="text-xs text-gray-400 uppercase tracking-widest font-bold">
+              {t("about.stats.authentic")}
+            </p>
           </div>
         </motion.div>
       </div>
+      {/* Reviews Section (now external component) */}
+      <ReviewsCarousel />
     </div>
   );
 };

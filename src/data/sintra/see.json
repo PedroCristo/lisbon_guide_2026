@@ -16,8 +16,8 @@
       "pt": "O Palácio da Pena é um palácio romântico situado na Serra de Sintra, em Portugal. Construído no século XIX, é um dos marcos mais icónicos do país, apresentando uma mistura de estilos arquitetónicos e cores vivas. Rodeado por florestas densas, encontra-se no topo de uma colina e oferece vistas amplas da região. É classificado como Património Mundial da UNESCO e atrai visitantes de todo o mundo."
     },
     "image": "../../assets/images/desktop/sintra/places/lisbon-guide-sintra-pena-palace-thumb-nail.png",
-    "image_bg": "../src/assets/images/desktop/sintra/places/lisbon-guide-sintra-pena-palace-bg.png",
-    "image_bg_mobile": "../src/assets/images/mobile/sintra/places/lisbon-guide-sintra-pena-palace-bg.jpg",
+    "image_bg": "../../assets/images/desktop/sintra/places/lisbon-guide-sintra-pena-palace-bg.png",
+    "image_bg_mobile": "../assets/images/mobile/sintra/places/lisbon-guide-sintra-pena-palace-bg.jpg",
     "category": {
       "en": "Palace",
       "pt": "Palácio"

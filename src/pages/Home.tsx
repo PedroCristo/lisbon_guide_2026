@@ -2,11 +2,14 @@ import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
-import { Star, Camera, Quote } from "lucide-react";
+import { Star, Camera } from "lucide-react";
+
 import seePlaces from "../data/lisbon/see.json";
 import eatPlaces from "../data/lisbon/eat.json";
-import reviews from "../data/lisbon/reviews.json";
+
 import PlaceCard from "../components/PlaceCard";
+import ReviewsCarousel from "../components/ReviewsCarousel";
+
 import hero1 from "../assets/images/desktop/lisbon/lisbon-guide-torre-belem-1.avif";
 import hero2 from "../assets/images/desktop/lisbon/lisbon-guide-jeronimos-monestery-3.jpg";
 import bairroImg from "../assets/images/desktop/lisbon/lisbon-guide-bairro-alto-1.png";
@@ -15,17 +18,14 @@ import logoIcon from "../assets/images/suport/lisbon-guide-favicon250X250-no-bg.
 const Home = () => {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language.startsWith("pt") ? "pt" : "en";
+
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 800], [0, 300]);
-  const [currentReviewIndex, setCurrentReviewIndex] = React.useState(0);
+
   const [currentHeroImage, setCurrentHeroImage] = React.useState(0);
 
   const heroImages = [hero1, hero2];
 
-  // Show only first 3 places from 'see' as preview
-  // const previewPlaces = seePlaces.slice(0, 3);
-
-  // Select 3 random places and persist them in sessionStorage for the session
   const shuffleArray = (array: any[]) => {
     return [...array].sort(() => Math.random() - 0.5);
   };
@@ -41,21 +41,12 @@ const Home = () => {
     return shuffled;
   }, []);
 
-  const currentReview = reviews[currentReviewIndex];
-
   React.useEffect(() => {
-    const reviewTimer = setInterval(() => {
-      setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
-    }, 6000);
-
     const heroTimer = setInterval(() => {
       setCurrentHeroImage((prev) => (prev + 1) % heroImages.length);
     }, 8000);
 
-    return () => {
-      clearInterval(reviewTimer);
-      clearInterval(heroTimer);
-    };
+    return () => clearInterval(heroTimer);
   }, []);
 
   return (
@@ -77,10 +68,8 @@ const Home = () => {
             />
           </AnimatePresence>
 
-          {/* Radial gradient overlay */}
           <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,rgba(0,0,0,0.2)_0%,rgba(0,0,0,0.6)_70%,rgba(0,0,0,0.4)_100%)]" />
           <div className="absolute inset-0 bg-black/30" />
-          {/* Fog Effect */}
           <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-white/20 to-transparent pointer-events-none" />
           <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/40 to-transparent pointer-events-none" />
         </motion.div>
@@ -94,6 +83,7 @@ const Home = () => {
           >
             {t("home.hero_title")}
           </motion.h1>
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -102,6 +92,7 @@ const Home = () => {
           >
             {t("home.hero_subtitle")}
           </motion.p>
+
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -127,18 +118,17 @@ const Home = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="flex flex-col items-start">
-              {/* Logo */}
               <img
                 src={logoIcon}
                 alt="Lisbon Guide Logo"
                 className="h-[80px] w-auto mb-4"
               />
 
-              {/* Title */}
               <h2 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight">
                 {t("home.welcome_title")}
               </h2>
             </div>
+
             <p className="text-gray-600 text-lg leading-relaxed mb-12 max-w-xl">
               {t("home.welcome_description")}
             </p>
@@ -180,25 +170,11 @@ const Home = () => {
             <div className="aspect-square rounded-[40px] overflow-hidden shadow-2xl">
               <img
                 src={bairroImg}
-                alt="Lisbon Baiirro Alto"
+                alt="Lisbon Bairro Alto"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
             </div>
-
-            {/* Floating Badge */}
-            <motion.div
-              initial={{ y: 20, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4, duration: 0.6 }}
-              className="absolute -bottom-8 -left-8 bg-orange-500 p-8 rounded-3xl shadow-2xl text-white"
-            >
-              <p className="text-4xl font-black mb-1">{t("home.sunny_days")}</p>
-              <p className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-90">
-                {t("home.sunny_days_label")}
-              </p>
-            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -213,26 +189,22 @@ const Home = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {previewPlaces.map((place: (typeof seePlaces)[0]) => {
-            console.log("Image src:", place.image);
-
-            return (
-              <PlaceCard
-                key={place.id}
-                id={place.id}
-                title={place.title[currentLang as keyof typeof place.title]}
-                shortDescription={
-                  place.shortDescription[
-                    currentLang as keyof typeof place.shortDescription
-                  ]
-                }
-                image={`../../${place.image}`}
-                category={
-                  place.category[currentLang as keyof typeof place.category]
-                }
-              />
-            );
-          })}
+          {previewPlaces.map((place: (typeof seePlaces)[0]) => (
+            <PlaceCard
+              key={place.id}
+              id={place.id}
+              title={place.title[currentLang as keyof typeof place.title]}
+              shortDescription={
+                place.shortDescription[
+                  currentLang as keyof typeof place.shortDescription
+                ]
+              }
+              image={`../${place.image}`}
+              category={
+                place.category[currentLang as keyof typeof place.category]
+              }
+            />
+          ))}
         </div>
 
         <div className="mt-16 text-center">
@@ -244,95 +216,9 @@ const Home = () => {
           </Link>
         </div>
       </section>
-      {/* Reviews Section */}
-      <section className="py-24 bg-slate-50 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
-              {t("home.reviews_title")}
-            </h2>
-            <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full" />
-          </div>
 
-          <div className="relative max-w-2xl mx-auto h-[350px] md:h-[300px]">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentReviewIndex}
-                initial={{ opacity: 0, x: 50 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -50 }}
-                transition={{ duration: 0.5 }}
-                className="absolute inset-0 bg-white p-8 md:p-12 rounded-[32px] shadow-xl shadow-slate-200/50 flex flex-col justify-center"
-              >
-                <div className="absolute -top-4 right-8 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white shadow-lg">
-                  <Quote size={24} fill="currentColor" />
-                </div>
-
-                <div className="flex items-center space-x-6 mb-8">
-                  <img
-                    src={currentReview.image}
-                    alt={currentReview.name}
-                    className="w-30 h-30 rounded-full object-cover border-4 border-orange-100 shadow-md"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div>
-                    <h4 className="text-xl font-bold text-slate-900">
-                      {currentReview.name}
-                    </h4>
-                    <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">
-                      {
-                        currentReview.city[
-                          currentLang as keyof typeof currentReview.city
-                        ]
-                      }
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex space-x-1 mb-6">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      size={20}
-                      className={
-                        i < currentReview.rating
-                          ? "text-yellow-400 fill-yellow-300"
-                          : "text-gray-200"
-                      }
-                    />
-                  ))}
-                </div>
-
-                <p className="text-lg md:text-xl text-gray-600 italic leading-relaxed">
-                  "
-                  {
-                    currentReview.review[
-                      currentLang as keyof typeof currentReview.review
-                    ]
-                  }
-                  "
-                </p>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-
-          {/* Carousel Indicators */}
-          <div className="flex justify-center space-x-2 mt-12">
-            {reviews.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentReviewIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  currentReviewIndex === index
-                    ? "bg-orange-500 w-8"
-                    : "bg-gray-300"
-                }`}
-                aria-label={`Go to review ${index + 1}`}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Reviews Section (now external component) */}
+      <ReviewsCarousel />
     </div>
   );
 };
