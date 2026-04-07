@@ -46,7 +46,7 @@ const PreviewPlaces = () => {
                 currentLang as keyof typeof place.shortDescription
               ]
             }
-            image={`../${place.image}`}
+            image={place.image}
             category={
               place.category[currentLang as keyof typeof place.category]
             }
