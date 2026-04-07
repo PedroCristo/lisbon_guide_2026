@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import CookieConsent from "./components/CookieConsent";
 import BackToTop from "./components/BackToTop";
+
 // Pages
 import Home from "./pages/Home";
 import Explore from "./pages/Explore";
@@ -17,7 +18,24 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import LocationPage from "./pages/LocationPage";
 
+import Preloader from "./components/utils/Preloader";
+
 export default function App() {
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    // Simulate app initialization / initial load
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
+
   return (
     <Router>
       <BackToTop />

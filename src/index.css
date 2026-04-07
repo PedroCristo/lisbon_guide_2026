@@ -30,6 +30,12 @@
   scrollbar-width: none; /* Firefox */
 }
 
+/* Preloader */
+.preloader-img {
+  position: absolute;
+  /* top: 42% */
+}
+
 @media only screen and (max-width: 640px) {
   .drop-down-menu {
     width: 320px !important;
@@ -37,7 +43,6 @@
 
   .explore-card {
     padding: 0 !important;
-    background-image: url(../public/assets/images/desktop/lisbon/places/);
   }
 }
 
