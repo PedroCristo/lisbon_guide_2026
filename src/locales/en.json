@@ -37,6 +37,11 @@
     "subtitle": "Discover the most beautiful places in Lisbon, from historic monuments to creative hubs.",
     "view_details": "View Details"
   },
+  "feature": {
+    "title": "Featured Places",
+    "subtitle": "Discover the most beautiful places in Lisbon.",
+    "cta": "Explore"
+  },
   "eat": {
     "title": "Where to Eat",
     "subtitle": "Savor the flavors of Lisbon, from traditional seafood to world-famous pastries.",

@@ -37,6 +37,10 @@
     "subtitle": "Descubra os lugares mais bonitos de Lisboa, de monumentos históricos a centros criativos.",
     "view_details": "Ver Detalhes"
   },
+    "feature": {
+    "title": "Em Destaque",
+    "subtitle": "Discover the most beautiful places in Lisbon."
+  },
   "eat": {
     "title": "Onde Comer",
     "subtitle": "Saboreie os sabores de Lisboa, do marisco tradicional aos pastéis mundialmente famosos.",

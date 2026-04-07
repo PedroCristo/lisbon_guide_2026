@@ -176,7 +176,7 @@
     },
     "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-thumb-nail.jpg",
     "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-bg.jpeg",
-    "image_bg_": "../../assets/images/mobile/lisbon/places/lisbon-guide-camoes-squere-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-camoes-squere-bg.jpeg",
     "category": {
       "en": "Square",
       "pt": "Praça"
@@ -282,7 +282,7 @@
     },
     "image": "../../assets/images/desktop/lisbon/places/lisbon-rua-augusta-thumb-nail.jpg",
     "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-rua-augusta-bg.jpg",
-    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-rua-augusta-bg.PNG",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-rua-augusta-bg.png",
     "category": {
       "en": "Street",
       "pt": "Rua"

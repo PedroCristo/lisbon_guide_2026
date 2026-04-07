@@ -205,7 +205,7 @@ const Detail = () => {
       </div>
 
       {/* Preview Section */}
-      <PreviewPlaces />
+      <PreviewPlaces detailPage={true} />
     </div>
   );
 };
