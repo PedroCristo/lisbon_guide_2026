@@ -1,14 +1,11 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
 import { Star, Camera } from "lucide-react";
 
-import seePlaces from "../data/lisbon/see.json";
-import eatPlaces from "../data/lisbon/eat.json";
-
-import PlaceCard from "../components/PlaceCard";
 import ReviewsCarousel from "../components/ReviewsCarousel";
+import PreviewPlaces from "../components/PreviewPlaces";
 
 import hero1 from "../assets/images/desktop/lisbon/lisbon-guide-torre-belem-1.avif";
 import hero2 from "../assets/images/desktop/lisbon/lisbon-guide-jeronimos-monestery-3.jpg";
@@ -25,21 +22,6 @@ const Home = () => {
   const [currentHeroImage, setCurrentHeroImage] = React.useState(0);
 
   const heroImages = [hero1, hero2];
-
-  const shuffleArray = (array: any[]) => {
-    return [...array].sort(() => Math.random() - 0.5);
-  };
-
-  const previewPlaces = useMemo(() => {
-    const saved = sessionStorage.getItem("previewPlaces");
-
-    if (saved) return JSON.parse(saved);
-
-    const shuffled = shuffleArray(seePlaces).slice(0, 3);
-    sessionStorage.setItem("previewPlaces", JSON.stringify(shuffled));
-
-    return shuffled;
-  }, []);
 
   React.useEffect(() => {
     const heroTimer = setInterval(() => {
@@ -180,44 +162,9 @@ const Home = () => {
       </section>
 
       {/* Preview Section */}
-      <section className="py-24 px-4 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
-            {t("explore.title")}
-          </h2>
-          <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full" />
-        </div>
+      <PreviewPlaces />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {previewPlaces.map((place: (typeof seePlaces)[0]) => (
-            <PlaceCard
-              key={place.id}
-              id={place.id}
-              title={place.title[currentLang as keyof typeof place.title]}
-              shortDescription={
-                place.shortDescription[
-                  currentLang as keyof typeof place.shortDescription
-                ]
-              }
-              image={`../${place.image}`}
-              category={
-                place.category[currentLang as keyof typeof place.category]
-              }
-            />
-          ))}
-        </div>
-
-        <div className="mt-16 text-center">
-          <Link
-            to="/explore"
-            className="text-orange-500 font-bold hover:underline underline-offset-8"
-          >
-            {t("home.cta")} →
-          </Link>
-        </div>
-      </section>
-
-      {/* Reviews Section (now external component) */}
+      {/* Reviews Section */}
       <ReviewsCarousel />
     </div>
   );
