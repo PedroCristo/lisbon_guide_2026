@@ -15,9 +15,9 @@
       "en": "Built in 1515 as a fortress to guard the entrance to Lisbon's harbor, the Belem Tower was the starting point for many of the voyages of discovery, and for the sailors it was the last sight of their homeland. It's a monument to Portugal's Age of Discovery, often serving as a symbol of the country, and UNESCO has listed it as a World Heritage monument.",
       "pt": "A Torre de Belém, ou Torre de São Vicente, é uma fortificação do século XVI localizada em Lisboa que serviu como ponto de embarque e desembarque para os exploradores portugueses e como porta cerimonial de Lisboa. Foi construída durante o auge do Renascimento português e é um exemplo proeminente do estilo manuelino português, mas também incorpora toques de outros estilos arquitetónicos. A estrutura foi construída em calcário lioz e é composta por um baluarte e uma torre de quatro andares com 30 metros de altura."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-2.webp",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-torre-belem-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-2.webp",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-torre-belem-bg.jpeg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -42,9 +42,9 @@
       "en": "The Jerónimos Monastery is one of Lisbon’s most important historical monuments and a masterpiece of Manueline architecture. Built in the 16th century, it reflects Portugal’s Age of Discovery and was commissioned by King Manuel I. The monastery features intricate stone carvings, grand cloisters, and a richly decorated church. It is a UNESCO World Heritage Site and one of the most visited landmarks in Portugal.",
       "pt": "O Mosteiro dos Jerónimos é um dos mais importantes monumentos históricos de Lisboa e uma obra-prima da arquitetura manuelina. Construído no século XVI, reflete a Era dos Descobrimentos e foi encomendado pelo rei D. Manuel I. O mosteiro apresenta esculturas em pedra detalhadas, claustros imponentes e uma igreja ricamente decorada. É Património Mundial da UNESCO e um dos locais mais visitados de Portugal."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-3.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-bg-2.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-jeronimos-monestery-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-bg-2.jpeg",
+    "image_bg": "../assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-bg-2.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-jeronimos-monestery-bg.jpg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -69,9 +69,9 @@
       "en": "Alfama is the oldest neighborhood in Lisbon and one of the most iconic areas of the city. It is famous for its labyrinth of narrow streets, steep hills, historic houses, and traditional atmosphere that reflects Lisbon’s past. Alfama survived the devastating 1755 earthquake, preserving much of its original layout. The district is also known as the birthplace of Fado, Portugal’s traditional music genre, and is home to landmarks such as São Jorge Castle and Lisbon Cathedral. Visitors explore Alfama on foot, discovering viewpoints, small squares, local restaurants, and cultural heritage at every turn.",
       "pt": "Alfama é o bairro mais antigo de Lisboa e uma das zonas mais emblemáticas da cidade. É famoso pelo seu labirinto de ruas estreitas, ladeiras íngremes, casas históricas e ambiente tradicional que reflete o passado de Lisboa. Alfama sobreviveu ao terramoto devastador de 1755, preservando grande parte da sua traça original. O bairro é também conhecido como o berço do Fado, a música tradicional portuguesa, e alberga monumentos como o Castelo de São Jorge e a Sé de Lisboa. Os visitantes exploram Alfama a pé, descobrindo miradouros, pequenas praças, restaurantes locais e património cultural a cada passo."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-alfama.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-alfama-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-alfama-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-alfama.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-alfama-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-alfama-bg.jpeg",
     "category": {
       "en": "District",
       "pt": "Bairro"
@@ -95,9 +95,9 @@
       "en": "Bairro Alto is one of Lisbon’s most iconic neighborhoods, renowned for its lively nightlife, traditional taverns, and eclectic mix of bars and restaurants. By day, it offers a quieter atmosphere with charming streets, historic buildings, and cultural spots. By night, it transforms into a hub of activity filled with music and social life. The area is also close to several viewpoints (miradouros) that provide sweeping views over Lisbon, making it a popular destination for both locals and visitors.",
       "pt": "O Bairro Alto é um dos bairros mais icónicos de Lisboa, conhecido pela sua vida noturna vibrante, tabernas tradicionais e uma mistura eclética de bares e restaurantes. Durante o dia, apresenta uma atmosfera mais calma, com ruas encantadoras, edifícios históricos e espaços culturais. À noite, transforma-se num centro de animação com música e convívio. A zona também está próxima de vários miradouros que oferecem vistas panorâmicas sobre Lisboa, sendo um destino popular tanto para locais como para visitantes."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-tumb-nail.png",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-bairro-alto-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-tumb-nail.png",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-bairro-alto-bg.jpeg",
     "category": {
       "en": "Neighborhood",
       "pt": "Bairro"
@@ -121,9 +121,9 @@
       "en": "Miradouro de São Pedro de Alcântara is one of Lisbon’s most popular viewpoints, located in the Bairro Alto area. It features a landscaped terrace with gardens, statues, and a tiled map of the city. From here, visitors can enjoy sweeping views of the city center, including São Jorge Castle, Baixa, and the Tagus River in the distance. It is a favorite spot for both daytime sightseeing and sunset views, offering a relaxed atmosphere and one of the best vantage points in Lisbon.",
       "pt": "O Miradouro de São Pedro de Alcântara é um dos miradouros mais populares de Lisboa, localizado na zona do Bairro Alto. Dispõe de um terraço ajardinado com estátuas e um painel de azulejos com o mapa da cidade. Deste local, é possível apreciar vistas amplas sobre o centro histórico, incluindo o Castelo de São Jorge, a Baixa e o rio Tejo ao fundo. É um local muito procurado tanto durante o dia como ao pôr do sol, oferecendo um ambiente tranquilo e uma das melhores vistas da cidade."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantra-tumb-nail.webp",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantara-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantara-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantra-tumb-nail.webp",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantara-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-miradouro-sao-pedro-alcantara-bg.jpeg",
     "category": {
       "en": "Viewpoint",
       "pt": "Miradouro"
@@ -147,9 +147,9 @@
       "en": "The Carmo Convent is one of Lisbon’s most striking historic landmarks, known for its roofless Gothic nave that remains as a reminder of the devastating 1755 earthquake. Founded in 1389 by Nuno Álvares Pereira, the convent was once one of the largest churches in Lisbon. Today, its preserved arches and stone structure create a unique open-air atmosphere. The site also houses the Carmo Archaeological Museum, which displays artifacts from various periods of Portuguese history.",
       "pt": "O Convento do Carmo é um dos marcos históricos mais impressionantes de Lisboa, conhecido pela sua nave gótica sem cobertura, resultado do devastador terramoto de 1755. Fundado em 1389 por Nuno Álvares Pereira, o convento foi outrora uma das maiores igrejas de Lisboa. Atualmente, os seus arcos preservados e a estrutura em pedra criam uma atmosfera única ao ar livre. O local alberga também o Museu Arqueológico do Carmo, que exibe artefactos de vários períodos da história portuguesa."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-carmo-convent-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-carmo-convent-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-carmo-convent-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-carmo-convent-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-carmo-convent-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-carmo-convent-bg.jpeg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -174,9 +174,9 @@
       "en": "Praça Luís de Camões is a historic square located between the Chiado and Bairro Alto districts in Lisbon. It is a lively meeting point surrounded by cafes, shops, and cultural landmarks. At its center stands a statue of Luís de Camões, Portugal’s most famous poet. The square serves as a gateway between the upper and lower parts of the city and is a popular spot for both locals and visitors to gather, relax, and enjoy the urban atmosphere of Lisbon.",
       "pt": "A Praça Luís de Camões é uma praça histórica situada entre os bairros do Chiado e do Bairro Alto, em Lisboa. É um ponto de encontro animado, rodeado de cafés, lojas e espaços culturais. No centro encontra-se a estátua de Luís de Camões, o poeta mais famoso de Portugal. A praça funciona como ligação entre a zona alta e baixa da cidade e é um local muito procurado tanto por locais como por visitantes para conviver e apreciar a atmosfera urbana de Lisboa."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-bg.jpeg",
-    "image_bg_": "../src/assets/images/mobile/lisbon/places/lisbon-guide-camoes-squere-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-camoes-square-bg.jpeg",
+    "image_bg_": "../../assets/images/mobile/lisbon/places/lisbon-guide-camoes-squere-bg.jpeg",
     "category": {
       "en": "Square",
       "pt": "Praça"
@@ -201,9 +201,9 @@
       "en": "Chiado Street connects the historic areas of Lisbon, lined with shops, cafes, and theaters. It is one of the city’s most elegant and vibrant districts, blending historic architecture with modern commerce and cultural venues. Visitors can explore bookstores, traditional cafes, and landmarks that reflect Lisbon’s artistic and literary heritage.",
       "pt": "A Rua do Chiado liga áreas históricas de Lisboa, ladeada por lojas, cafés e teatros. É uma das zonas mais elegantes e vibrantes da cidade, combinando arquitetura histórica com comércio moderno e espaços culturais. Os visitantes podem explorar livrarias, cafés tradicionais e locais que refletem o património artístico e literário de Lisboa."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-chiado-street-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-chiado-street-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-chiado-street-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-chiado-street-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-chiado-street-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-chiado-street-bg.jpg",
     "category": {
       "en": "Street",
       "pt": "Rua"
@@ -227,9 +227,9 @@
       "en": "Praça do Comércio is one of Lisbon’s most iconic squares, located along the Tagus River. Historically known as Terreiro do Paço, it served as the location of the royal palace before it was destroyed in the 1755 earthquake. Today, the square is surrounded by elegant arcades and yellow Pombaline-style buildings, with the impressive Arco da Rua Augusta leading into the Baixa district. It is a central hub for both tourists and locals.",
       "pt": "A Praça do Comércio é uma das praças mais icónicas de Lisboa, localizada junto ao rio Tejo. Historicamente conhecida como Terreiro do Paço, foi o local do palácio real antes de ser destruído no terramoto de 1755. Atualmente, a praça é rodeada por arcadas elegantes e edifícios amarelos de estilo pombalino, com o imponente Arco da Rua Augusta a dar acesso à Baixa. É um ponto central tanto para turistas como para locais."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-praca-comercio-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-praca-comercio-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-praca-comercio-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-praca-comercio-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-praca-comercio-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-praca-comercio-bg.jpg",
     "category": {
       "en": "Square",
       "pt": "Praça"
@@ -254,9 +254,9 @@
       "en": "Baixa is Lisbon’s downtown area, rebuilt after the 1755 earthquake with a grid layout of wide streets and neoclassical architecture. It features iconic squares such as Praça do Comércio and Rossio, as well as pedestrian streets filled with shops, cafes, and historic buildings. The area is one of the main commercial and tourist hubs of Lisbon, offering easy access to many landmarks and a vibrant urban atmosphere.",
       "pt": "A Baixa é a zona central de Lisboa, reconstruída após o terramoto de 1755 com uma malha de ruas em grelha e arquitetura neoclássica. Inclui praças icónicas como a Praça do Comércio e o Rossio, bem como ruas pedonais repletas de lojas, cafés e edifícios históricos. É uma das principais zonas comerciais e turísticas de Lisboa, oferecendo fácil acesso a vários pontos de interesse e uma atmosfera urbana vibrante."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-baixa-bg.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-baixa-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-baixa-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-baixa-bg.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-baixa-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-baixa-bg.jpg",
     "category": {
       "en": "District",
       "pt": "Distrito"
@@ -280,9 +280,9 @@
       "en": "Rua Augusta is one of Lisbon’s most iconic pedestrian streets, located in the heart of the Baixa district. It connects Praça do Comércio to Rossio Square and is lined with shops, cafes, and street performers. The street is known for its traditional Portuguese architecture, the Rua Augusta Arch at its southern end, and its vibrant atmosphere that attracts both locals and tourists throughout the day.",
       "pt": "A Rua Augusta é uma das ruas pedonais mais icónicas de Lisboa, situada no coração da Baixa. Liga a Praça do Comércio ao Rossio e é ladeada por lojas, cafés e artistas de rua. A rua é conhecida pela sua arquitetura tradicional portuguesa, pelo Arco da Rua Augusta na extremidade sul e pela sua atmosfera vibrante que atrai tanto locais como turistas ao longo do dia."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-rua-augusta-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-rua-augusta-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-rua-augusta-bg.PNG",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-rua-augusta-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-rua-augusta-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-rua-augusta-bg.PNG",
     "category": {
       "en": "Street",
       "pt": "Rua"
@@ -306,9 +306,9 @@
       "en": "Mercado da Ribeira is Lisbon's main food market, also known as Time Out Market, featuring dozens of restaurants, gourmet stalls, and a curated selection of local and international cuisine. It has become a popular gastronomic destination where visitors can sample dishes from some of the city’s top chefs in a lively, communal setting.",
       "pt": "O Mercado da Ribeira, também conhecido como Time Out Market, é o principal mercado de comida de Lisboa, com dezenas de restaurantes e bancas gourmet. Tornou-se um destino gastronómico popular onde os visitantes podem provar pratos de alguns dos melhores chefs da cidade num ambiente dinâmico e partilhado."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-ribeira-market-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-ribeira-market-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-ribeira-market-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-ribeira-market-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-ribeira-market-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-ribeira-market-bg.jpeg",
     "category": {
       "en": "Market",
       "pt": "Mercado"
@@ -333,9 +333,9 @@
       "en": "Ribeira das Naus is a scenic riverside promenade located between Praça do Comércio and Cais do Sodré. Once used as a shipyard during the Age of Discovery, it has been transformed into a modern public space with wide walkways, green areas, and seating along the Tagus River. It is a popular spot for walking, relaxing, and enjoying views of the river, especially at sunset.",
       "pt": "A Ribeira das Naus é um passeio ribeirinho situado entre a Praça do Comércio e o Cais do Sodré. Antigamente utilizada como estaleiro naval durante a Era dos Descobrimentos, foi transformada num espaço público moderno com amplos passeios, zonas verdes e áreas de descanso junto ao rio Tejo. É um local popular para caminhar, relaxar e apreciar as vistas sobre o rio, especialmente ao pôr do sol."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-ribeira-das-naust-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-ribeira-das-naus-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-ribeira-das-naus-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-ribeira-das-naust-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-ribeira-das-naus-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-ribeira-das-naus-bg.jpg",
     "category": {
       "en": "Promenade",
       "pt": "Passeio"
@@ -360,9 +360,9 @@
       "en": "The Monument to the Discoveries is a striking structure located along the Tagus River in Belém, Lisbon. Originally built as a temporary structure in 1940 and later reconstructed in durable materials, it commemorates the Portuguese Age of Discoveries. The monument features sculpted figures of key historical personalities such as explorers, navigators, and patrons of the era, led by Henry the Navigator at the front. Visitors can also ascend to the top for panoramic views over the river, the Jerónimos Monastery, and the surrounding area.",
       "pt": "O Padrão dos Descobrimentos é uma impressionante estrutura localizada junto ao rio Tejo, em Belém, Lisboa. Originalmente construído como estrutura temporária em 1940 e posteriormente reconstruído em materiais duradouros, comemora a Era dos Descobrimentos portugueses. O monumento apresenta figuras esculpidas de personalidades históricas importantes, como exploradores, navegadores e patronos da época, liderados no topo pelo Infante D. Henrique. Os visitantes podem subir ao topo para obter vistas panorâmicas sobre o rio, o Mosteiro dos Jerónimos e a zona envolvente."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-padrao-dos-descobrimentos-bg.jpg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -387,9 +387,9 @@
       "en": "The Coach Museum in Lisbon houses one of the most important collections of royal carriages in the world. It showcases vehicles used by European royalty from the 16th to the 19th centuries, including ornate coaches, ceremonial vehicles, and historical artifacts. The museum highlights the evolution of transportation and the craftsmanship involved in carriage design, offering visitors a unique insight into Portugal’s royal history.",
       "pt": "O Museu dos Coches em Lisboa alberga uma das mais importantes coleções de carruagens reais do mundo. Exibe veículos utilizados pela realeza europeia entre os séculos XVI e XIX, incluindo coches ornamentados, veículos cerimoniais e artefactos históricos. O museu destaca a evolução dos meios de transporte e o trabalho artesanal envolvido no design das carruagens, oferecendo aos visitantes uma visão única da história real de Portugal."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-museu-dos-coches-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-museu-dos-coches-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-museu-dos-coches-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-museu-dos-coches-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-museu-dos-coches-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-museu-dos-coches-bg.jpg",
     "category": {
       "en": "Museum",
       "pt": "Museu"
@@ -414,9 +414,9 @@
       "en": "The Maritime Museum, located in Belém, is one of the most important museums in Portugal dedicated to naval history. It showcases the country’s maritime heritage, including models of ships, navigational instruments, royal barges, and artifacts from the Age of Discoveries. The museum provides a comprehensive overview of Portugal’s seafaring history and its role in global exploration.",
       "pt": "O Museu de Marinha, localizado em Belém, é um dos mais importantes museus de Portugal dedicados à história naval. Exibe o património marítimo do país, incluindo modelos de navios, instrumentos de navegação, embarcações reais e artefactos da Era dos Descobrimentos. O museu oferece uma visão abrangente da história marítima de Portugal e do seu papel na exploração global."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-maritime-museum-thumb-nail.png",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-maritime-museum-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-maritime-museum-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-maritime-museum-thumb-nail.png",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-maritime-museum-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-maritime-museum-bg.jpeg",
     "category": {
       "en": "Museum",
       "pt": "Museu"
@@ -441,9 +441,9 @@
       "en": "The Berardo Museum, located in the Belém Cultural Center, is one of Portugal’s most important collections of modern and contemporary art. It features works from major artistic movements of the 20th and 21st centuries, including pieces by renowned international artists. The museum offers a diverse and rotating exhibition program, providing visitors with insight into modern artistic expression.",
       "pt": "O Museu Coleção Berardo, localizado no Centro Cultural de Belém, é uma das mais importantes coleções de arte moderna e contemporânea em Portugal. Apresenta obras de grandes movimentos artísticos dos séculos XX e XXI, incluindo peças de artistas internacionais de renome. O museu oferece uma programação diversificada e rotativa, proporcionando aos visitantes uma visão da expressão artística moderna."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-berardo-museum-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-berardo-museum-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-berardo-museum-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-berardo-museum-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-berardo-museum-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-berardo-museum-bg.jpg",
     "category": {
       "en": "Museum",
       "pt": "Museu"
@@ -468,9 +468,9 @@
       "en": "Santo Amaro Docks is a popular waterfront area located under the 25 de Abril Bridge in Lisbon. It is known for its vibrant nightlife, restaurants, and bars set along the river. The area offers scenic views of the Tagus River and the bridge, making it a favored spot for both dining and leisure. It is especially lively in the evenings, attracting locals and visitors looking for a relaxed yet dynamic atmosphere by the water.",
       "pt": "As Docas de Santo Amaro são uma zona ribeirinha popular localizada sob a Ponte 25 de Abril em Lisboa. É conhecida pela sua vida noturna animada, restaurantes e bares junto ao rio. A área oferece vistas panorâmicas sobre o rio Tejo e a ponte, sendo um local muito procurado tanto para refeições como para lazer. É especialmente movimentada à noite, atraindo locais e visitantes que procuram um ambiente descontraído junto à água."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-santo-amaro-docks-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-santo-amaro-docks-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-santo-amaro-docks-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-santo-amaro-docks-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-santo-amaro-docks-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-santo-amaro-docks-bg.jpg",
     "category": {
       "en": "Waterfront",
       "pt": "Zona Ribeirinha"
@@ -495,9 +495,9 @@
       "en": "The Santa Justa Elevator is a historic vertical lift located in the Baixa district of Lisbon. Designed by Raoul Mesnier du Ponsard and inaugurated in 1902, it connects the lower streets of Baixa with Carmo Square. Built in an elegant neo-Gothic style, the elevator is both a functional transport system and a popular tourist attraction. At the top, visitors can enjoy panoramic views over Lisbon, including the city center, the castle, and surrounding districts.",
       "pt": "O Elevador de Santa Justa é um elevador vertical histórico localizado na zona da Baixa em Lisboa. Projetado por Raoul Mesnier du Ponsard e inaugurado em 1902, liga as ruas baixas da Baixa ao Largo do Carmo. Construído em estilo neogótico elegante, o elevador é tanto um meio de transporte funcional como uma atração turística popular. No topo, os visitantes podem desfrutar de vistas panorâmicas sobre Lisboa, incluindo o centro da cidade, o castelo e as zonas envolventes."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-santa-justa-elevator-thumb-nail.avif",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-santa-justa-elevator-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-santa-justa-elevator-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-santa-justa-elevator-thumb-nail.avif",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-santa-justa-elevator-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-santa-justa-elevator-bg.jpg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -522,9 +522,9 @@
       "en": "A Ginjinha is one of Lisbon’s most iconic and historic establishments, known for serving ginjinha, a traditional Portuguese cherry liqueur. Located near Rossio Square, it has been operating since the 19th century and is a popular stop for both locals and tourists. The drink is typically served in a small glass, sometimes with a cherry inside, and is enjoyed standing at the counter or outside on the street.",
       "pt": "A Ginjinha é um dos estabelecimentos mais icónicos e históricos de Lisboa, conhecido por servir ginjinha, um licor tradicional português de cereja. Localizado perto da Praça do Rossio, funciona desde o século XIX e é uma paragem popular tanto para locais como para turistas. A bebida é normalmente servida em copo pequeno, por vezes com uma cereja no interior, sendo consumida ao balcão ou na rua."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-a-ginjinha-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-a-ginjinha-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-a-ginjinha-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-a-ginjinha-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-a-ginjinha-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-a-ginjinha-bg.jpg",
     "category": {
       "en": "Bar",
       "pt": "Bar"
@@ -549,9 +549,9 @@
       "en": "Edward VII Park is the largest park in central Lisbon, located just north of Avenida da Liberdade. It features wide green spaces, walking paths, and landscaped gardens, as well as a viewpoint offering panoramic views over the city, including the Tagus River. The park is a popular place for leisure, outdoor activities, and events, and it hosts the Estufa Fria, a large greenhouse with diverse plant species.",
       "pt": "O Parque Eduardo VII é o maior parque do centro de Lisboa, situado a norte da Avenida da Liberdade. Dispõe de amplas zonas verdes, caminhos pedonais e jardins cuidados, bem como um miradouro com vistas panorâmicas sobre a cidade, incluindo o rio Tejo. É um local popular para lazer, atividades ao ar livre e eventos, e alberga a Estufa Fria, uma grande estufa com diversas espécies de plantas."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-eduardo-vii-park-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-eduardo-vii-park-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-eduardo-vii-park-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-eduardo-vii-park-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-eduardo-vii-park-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-eduardo-vii-park-bg.jpg",
     "category": {
       "en": "Park",
       "pt": "Parque"
@@ -576,9 +576,9 @@
       "en": "Lisbon Cathedral, known as Sé de Lisboa, is the oldest church in the city, originally built in 1147 after the Christian reconquest of Lisbon. Over the centuries, it has undergone multiple renovations due to earthquakes and reconstructions, blending Romanesque, Gothic, and Baroque architectural elements. Located in the Alfama district, the cathedral remains an important religious site and a key historical monument, featuring a striking façade, twin towers, and a richly decorated interior with chapels and relics.",
       "pt": "A Sé de Lisboa é a igreja mais antiga da cidade, construída originalmente em 1147 após a reconquista cristã de Lisboa. Ao longo dos séculos, sofreu várias alterações devido a terramotos e reconstruções, combinando elementos arquitetónicos românicos, góticos e barrocos. Localizada no bairro de Alfama, a catedral continua a ser um importante local religioso e um monumento histórico, com uma fachada imponente, torres gémeas e um interior ricamente decorado com capelas e relíquias."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-lisbon-cathedral-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-lisbon-cathedral-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-lisbon-cathedral-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-lisbon-cathedral-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-lisbon-cathedral-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-lisbon-cathedral-bg.jpg",
     "category": {
       "en": "Church",
       "pt": "Igreja"
@@ -603,9 +603,9 @@
       "en": "Miradouro das Portas do Sol is one of Lisbon’s most famous viewpoints, located in the Alfama district. It offers stunning panoramic views over the rooftops of Alfama, the Tagus River, and iconic landmarks such as the National Pantheon and São Vicente de Fora Church. The viewpoint features a terrace with seating, making it a popular spot for photography and relaxing while enjoying the scenery.",
       "pt": "O Miradouro das Portas do Sol é um dos miradouros mais famosos de Lisboa, localizado no bairro de Alfama. Oferece vistas panorâmicas deslumbrantes sobre os telhados de Alfama, o rio Tejo e marcos icónicos como o Panteão Nacional e a Igreja de São Vicente de Fora. O miradouro dispõe de um terraço com zonas de descanso, sendo um local muito procurado para fotografias e momentos de contemplação da paisagem."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-miradouro-portas-do-sol-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-miradouro-portas-do-sol-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-miradouro-portas-do-sol-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-miradouro-portas-do-sol-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-miradouro-portas-do-sol-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-miradouro-portas-do-sol-bg.jpeg",
     "category": {
       "en": "Viewpoint",
       "pt": "Miradouro"
@@ -630,9 +630,9 @@
       "en": "St. George's Castle is a historic fortress located on one of Lisbon's highest hills. It dates back to medieval times and played a key role in the city's defense. Today, it is one of Lisbon's most visited landmarks, offering panoramic views over the city, the Tagus River, and surrounding neighborhoods. Visitors can explore its towers, walls, gardens, and archaeological remains.",
       "pt": "O Castelo de São Jorge é uma fortaleza histórica situada numa das colinas mais altas de Lisboa. Remonta à época medieval e teve um papel fundamental na defesa da cidade. Atualmente, é um dos locais mais visitados de Lisboa, oferecendo vistas panorâmicas sobre a cidade, o rio Tejo e os bairros envolventes. Os visitantes podem explorar as suas torres, muralhas, jardins e vestígios arqueológicos."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-st-georges-castle-thumb-nail.png",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-st-georges-castle-bg.jpeg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-st-georges-castle-bg.png",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-st-georges-castle-thumb-nail.png",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-st-georges-castle-bg.jpeg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-st-georges-castle-bg.png",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -657,9 +657,9 @@
       "en": "The National Pantheon is a monumental building located in the Alfama district of Lisbon. Originally a church dedicated to Santa Engrácia, it was later converted into a national pantheon to honor prominent Portuguese figures. The building is known for its impressive baroque architecture and its large dome. Inside, visitors can find tombs of notable personalities, while the rooftop offers panoramic views over Lisbon and the Tagus River.",
       "pt": "O Panteão Nacional é um edifício monumental localizado no bairro de Alfama, em Lisboa. Originalmente uma igreja dedicada a Santa Engrácia, foi posteriormente convertido em panteão nacional para homenagear figuras ilustres de Portugal. O edifício destaca-se pela sua arquitetura barroca impressionante e pela grande cúpula. No interior, encontram-se túmulos de personalidades notáveis, enquanto o terraço oferece vistas panorâmicas sobre Lisboa e o rio Tejo."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-national-pantheon-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-national-pantheon-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-national-pantheon-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-national-pantheon-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-national-pantheon-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-national-pantheon-bg.jpg",
     "category": {
       "en": "Monument",
       "pt": "Monumento"
@@ -684,9 +684,9 @@
       "en": "Parque das Nações, also known as the 'New Lisbon', is a modern district developed for the 1998 World Exposition. It features contemporary architecture, wide pedestrian areas, gardens, and attractions such as the Oceanarium, cable car, and riverside promenade along the Tagus River. It contrasts with Lisbon’s historic districts, showcasing a more urban and modern side of the city.",
       "pt": "O Parque das Nações, também conhecido como a 'Nova Lisboa', é uma zona moderna desenvolvida para a Exposição Mundial de 1998. Apresenta arquitetura contemporânea, amplas zonas pedonais, jardins e atrações como o Oceanário, o teleférico e o passeio ribeirinho ao longo do rio Tejo. Contrasta com os bairros históricos de Lisboa, mostrando um lado mais urbano e moderno da cidade."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-parque-das-nacoes-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-parque-das-nacoes-bg.png",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-parque-das-nacoes-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-parque-das-nacoes-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-parque-das-nacoes-bg.png",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-parque-das-nacoes-bg.jpg",
     "category": {
       "en": "District",
       "pt": "Distrito"
@@ -711,9 +711,9 @@
       "en": "The Oceanarium of Lisbon is a world-class aquarium located in Parque das Nações. It features a massive central tank representing the global ocean, surrounded by smaller habitats that showcase marine life from different regions of the world. Visitors can see a wide variety of species including sharks, rays, penguins, and colorful tropical fish. It is one of Lisbon’s most popular attractions and is designed to promote ocean conservation and environmental awareness.",
       "pt": "O Oceanário de Lisboa é um aquário de referência mundial localizado no Parque das Nações. Possui um enorme tanque central que representa o oceano global, rodeado por habitats menores que exibem vida marinha de várias regiões do mundo. Os visitantes podem observar uma grande variedade de espécies, incluindo tubarões, raias, pinguins e peixes tropicais coloridos. É uma das atrações mais populares de Lisboa e tem como objetivo promover a conservação dos oceanos e a consciência ambiental."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-oceanarium-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-oceanarium-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-oceanarium-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-oceanarium-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-oceanarium-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-oceanarium-bg.jpg",
     "category": {
       "en": "Attraction",
       "pt": "Atração"
@@ -738,9 +738,9 @@
       "en": "Lisbon Zoo is one of the oldest and most popular zoos in Portugal, offering a wide range of animal species from around the world. The zoo features themed habitats, a cable car, and educational presentations focused on wildlife conservation. It is a family-friendly attraction where visitors can explore diverse ecosystems and learn about global biodiversity.",
       "pt": "O Jardim Zoológico de Lisboa é um dos mais antigos e populares de Portugal, oferecendo uma grande variedade de espécies animais de todo o mundo. O zoo inclui habitats temáticos, um teleférico e apresentações educativas focadas na conservação da vida selvagem. É uma atração familiar onde os visitantes podem explorar diversos ecossistemas e aprender sobre a biodiversidade global."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-lisbon-zoo-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-lisbon-zoo-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-lisbon-zoo-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-lisbon-zoo-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-lisbon-zoo-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-lisbon-zoo-bg.jpg",
     "category": {
       "en": "Attraction",
       "pt": "Atração"
@@ -765,9 +765,9 @@
       "en": "Estádio da Luz, officially known as Estádio do Sport Lisboa e Benfica, is the home of SL Benfica and one of the most iconic football stadiums in Portugal. It hosted major events including the UEFA Euro 2004 final and the UEFA Champions League final in 2014. The stadium offers guided tours, a museum, and an immersive experience for football fans.",
       "pt": "O Estádio da Luz, oficialmente Estádio do Sport Lisboa e Benfica, é a casa do SL Benfica e um dos estádios mais emblemáticos de Portugal. Já recebeu grandes eventos como a final do Euro 2004 e a final da Liga dos Campeões em 2014. O estádio oferece visitas guiadas, um museu e uma experiência imersiva para os fãs de futebol."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-estadio-da-luz-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-estadio-da-luz-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-estadio-da-luz-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-estadio-da-luz-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-estadio-da-luz-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-estadio-da-luz-bg.jpg",
     "category": {
       "en": "Stadium",
       "pt": "Estádio"
@@ -792,9 +792,9 @@
       "en": "Estádio José Alvalade is the home stadium of Sporting Clube de Portugal (Sporting CP). Opened in 2003 for UEFA Euro 2004, it is known for its modern design, vibrant atmosphere, and excellent facilities. The stadium also hosts concerts and events, and offers tours and a club museum for visitors.",
       "pt": "O Estádio José Alvalade é o estádio do Sporting Clube de Portugal (Sporting CP). Inaugurado em 2003 para o Euro 2004, é conhecido pelo seu design moderno, ambiente vibrante e excelentes infraestruturas. O estádio também recebe concertos e eventos, e disponibiliza visitas guiadas e um museu do clube."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-estadio-jose-alvalade-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-estadio-jose-alvalade-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-estadio-jose-alvalade-bg.png",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-estadio-jose-alvalade-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-estadio-jose-alvalade-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-estadio-jose-alvalade-bg.png",
     "category": {
       "en": "Stadium",
       "pt": "Estádio"
@@ -819,9 +819,9 @@
       "en": "Quake – Earthquake Museum is an immersive experience in Lisbon dedicated to the history and impact of the 1755 earthquake that devastated the city. Through interactive exhibits and simulations, visitors can learn about seismic science, the event itself, and its effects on Lisbon’s reconstruction. The museum combines education and entertainment, offering a unique and engaging way to understand one of the most important historical events in Portugal.",
       "pt": "O Quake – Museu do Terramoto é uma experiência imersiva em Lisboa dedicada à história e ao impacto do terramoto de 1755 que devastou a cidade. Através de exposições interativas e simulações, os visitantes podem aprender sobre a ciência sísmica, o evento em si e os seus efeitos na reconstrução de Lisboa. O museu combina educação e entretenimento, oferecendo uma forma única e envolvente de compreender um dos acontecimentos mais importantes da história de Portugal."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-guide-quake-museum-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-quake-museum-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-quake-museum-bg.png",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-guide-quake-museum-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-quake-museum-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-quake-museum-bg.png",
     "category": {
       "en": "Museum",
       "pt": "Museu"

@@ -7,9 +7,9 @@ import seePlaces from "../data/lisbon/see.json";
 import eatPlaces from "../data/lisbon/eat.json";
 import reviews from "../data/lisbon/reviews.json";
 import PlaceCard from "../components/PlaceCard";
-import hero1 from "../assets/images/desktop/lisbon/places/lisbon-guide-torre-belem-1.avif";
-import hero2 from "../assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-3.jpg";
-import bairroImg from "../assets/images/desktop/lisbon/places/lisbon-guide-bairro-alto-1.png";
+import hero1 from "../assets/images/desktop/lisbon/lisbon-guide-torre-belem-1.avif";
+import hero2 from "../assets/images/desktop/lisbon/lisbon-guide-jeronimos-monestery-3.jpg";
+import bairroImg from "../assets/images/desktop/lisbon/lisbon-guide-bairro-alto-1.png";
 import logoIcon from "../assets/images/suport/lisbon-guide-favicon250X250-no-bg.png";
 
 const Home = () => {
@@ -213,22 +213,26 @@ const Home = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {previewPlaces.map((place: (typeof seePlaces)[0]) => (
-            <PlaceCard
-              key={place.id}
-              id={place.id}
-              title={place.title[currentLang as keyof typeof place.title]}
-              shortDescription={
-                place.shortDescription[
-                  currentLang as keyof typeof place.shortDescription
-                ]
-              }
-              image={place.image}
-              category={
-                place.category[currentLang as keyof typeof place.category]
-              }
-            />
-          ))}
+          {previewPlaces.map((place: (typeof seePlaces)[0]) => {
+            console.log("Image src:", place.image);
+
+            return (
+              <PlaceCard
+                key={place.id}
+                id={place.id}
+                title={place.title[currentLang as keyof typeof place.title]}
+                shortDescription={
+                  place.shortDescription[
+                    currentLang as keyof typeof place.shortDescription
+                  ]
+                }
+                image={`../../${place.image}`}
+                category={
+                  place.category[currentLang as keyof typeof place.category]
+                }
+              />
+            );
+          })}
         </div>
 
         <div className="mt-16 text-center">

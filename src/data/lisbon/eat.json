@@ -15,9 +15,9 @@
       "en": "Cervejaria Ramiro is one of Lisbon’s most iconic seafood restaurants, renowned for its high-quality fresh shellfish. Founded in 1956, it has become a must-visit destination for both locals and tourists. The menu features a wide variety of seafood, including shrimp, crab, clams, and lobster, all prepared simply to highlight their natural flavors. Despite its popularity and frequent queues, the experience is considered essential for seafood lovers visiting Lisbon.",
       "pt": "A Cervejaria Ramiro é um dos restaurantes de marisco mais icónicos de Lisboa, conhecida pela elevada qualidade dos seus mariscos frescos. Fundada em 1956, tornou-se uma paragem obrigatória tanto para locais como para turistas. O menu inclui uma grande variedade de mariscos, como camarão, caranguejo, amêijoas e lagosta, preparados de forma simples para realçar os sabores naturais. Apesar das filas frequentes, a experiência é considerada essencial para os amantes de marisco."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-restaurant-ramiro-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-restaurant-ramiro-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-restaurant-ramiro-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-restaurant-ramiro-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-restaurant-ramiro-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-restaurant-ramiro-bg.jpg",
     "category": {
       "en": "Seafood",
       "pt": "Marisco"
@@ -42,9 +42,9 @@
       "en": "Taverna das Flores is a small and charming restaurant in Lisbon, known for its creative take on traditional Portuguese petiscos. Located in the lively Rua das Flores, it offers a rotating menu focused on fresh, seasonal ingredients and bold flavors. The informal setting and high-quality dishes make it a favorite among locals and visitors looking for an authentic yet contemporary dining experience.",
       "pt": "A Taverna das Flores é um pequeno e encantador restaurante em Lisboa, conhecido pela sua abordagem criativa aos petiscos tradicionais portugueses. Localizada na animada Rua das Flores, apresenta um menu rotativo baseado em ingredientes frescos e sazonais e sabores intensos. O ambiente informal e a elevada qualidade dos pratos tornam-no um favorito entre locais e visitantes que procuram uma experiência autêntica e contemporânea."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-taverna-das-flores-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-taverna-das-flores-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-taverna-das-flores-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-taverna-das-flores-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-taverna-das-flores-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-taverna-das-flores-bg.jpg",
     "category": {
       "en": "Traditional Portuguese",
       "pt": "Tradicional português"
@@ -69,9 +69,9 @@
       "en": "ALMA is a fine dining restaurant offering signature cuisine served in an informal yet sophisticated ambience. It aims to be innovative not only in its food proposals but also in simplifying and breaking traditional culinary rules. For chef Henrique Sá Pessoa, there is only good cuisine and bad cuisine. His philosophy is rooted in refined taste, perfect technique, and excellent products, influenced by his travels around the world, his passion for Asia, and his deep knowledge of traditional Portuguese cuisine combined with life in Lisbon.",
       "pt": "O ALMA é um restaurante de fine dining que apresenta cozinha de autor servida num ambiente informal e sofisticado. Procura ser inovador não apenas nas propostas gastronómicas, mas também na simplificação e quebra de algumas regras tradicionais. Para o chef Henrique Sá Pessoa, existe apenas boa e má cozinha. A sua filosofia baseia-se no bom gosto, técnica perfeita e excelente produto, influenciada pelas suas viagens pelo mundo, pela paixão pela Ásia e pelo conhecimento da cozinha tradicional portuguesa aliado à vida em Lisboa."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-alma-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-alma-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-alma-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-alma-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-alma-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-alma-bg.jpg",
     "category": {
       "en": "Fine Dining",
       "pt": "Alta Cozinha"
@@ -96,9 +96,9 @@
       "en": "O Bairro do Avillez is a unique culinary concept created by chef José Avillez, bringing together different dining experiences under one roof. It includes several spaces such as a tavern, a pizzeria, a seafood-focused restaurant, and a grocery-style shop. Each area offers a distinct atmosphere while maintaining a strong connection to Portuguese cuisine with a modern twist. Located in the Chiado district, it is a popular destination for both locals and visitors looking for variety and quality in one place.",
       "pt": "O Bairro do Avillez é um conceito gastronómico único criado pelo chef José Avillez, reunindo várias experiências culinárias num só espaço. Inclui diferentes áreas como uma taberna, uma pizzaria, um restaurante de marisco e uma mercearia. Cada espaço oferece uma atmosfera distinta, mantendo uma forte ligação à cozinha portuguesa com um toque moderno. Localizado no Chiado, é um destino popular tanto para locais como para visitantes que procuram variedade e qualidade num só lugar."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-bairro-do-avillez-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-bairro-do-avillez-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-bairro-do-avillez-bg.avif",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-bairro-do-avillez-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-bairro-do-avillez-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-bairro-do-avillez-bg.avif",
     "category": {
       "en": "Fine Dining",
       "pt": "Alta Cozinha"
@@ -123,9 +123,9 @@
       "en": "Opened since 1993, A Tasca do Chico is a must-visit stop on Lisbon’s Fado circuit. It welcomes both established artists and emerging voices, as well as anyone who feels like singing Fado accompanied by the Portuguese guitar. Housed in a former tavern and decorated with paintings, posters, and memorabilia, the space has a cozy and intimate atmosphere with limited seating. For those interested in Fado Vadio (amateur Fado), performances typically take place on Mondays and Wednesdays, offering an authentic and spontaneous musical experience.",
       "pt": "Aberta desde 1993, a Tasca do Chico é uma paragem obrigatória no circuito do fado em Lisboa. Acolhe tanto artistas consagrados como novos talentos, bem como qualquer pessoa que sinta vontade de cantar fado acompanhada pela guitarra portuguesa. Instalada numa antiga tasca, está decorada com pinturas, cartazes e recortes, criando um ambiente acolhedor e intimista com lugares limitados. Para quem procura Fado Vadio, as atuações costumam acontecer às segundas e quartas-feiras, proporcionando uma experiência autêntica e espontânea."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-tasca-do-chico-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-tasca-do-chico-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-tasca-do-chico-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-tasca-do-chico-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-tasca-do-chico-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-tasca-do-chico-bg.jpg",
     "category": {
       "en": "Fado House",
       "pt": "Casa de Fado"
@@ -150,9 +150,9 @@
       "en": "A Baiuca is a traditional Fado tavern located in the historic Alfama district of Lisbon. Known for its intimate and authentic atmosphere, it offers live Fado performances in a small, cozy setting where music and Portuguese culture come together. Guests can enjoy traditional Portuguese dishes while listening to Fado sung in its most genuine and emotional form. It is a popular spot for those seeking an immersive cultural and musical experience.",
       "pt": "A Baiuca é uma tasca tradicional de fado localizada no histórico bairro de Alfama, em Lisboa. Conhecida pelo seu ambiente íntimo e autêntico, oferece atuações de fado ao vivo num espaço pequeno e acolhedor, onde a música e a cultura portuguesa se encontram. Os visitantes podem desfrutar de pratos tradicionais portugueses enquanto assistem ao fado na sua forma mais genuína e emotiva. É um local popular para quem procura uma experiência cultural e musical imersiva."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-baiuca-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-baiuca-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-a-baiuca-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-baiuca-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-baiuca-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-a-baiuca-bg.jpg",
     "category": {
       "en": "Fado House",
       "pt": "Casa de Fado"
@@ -177,9 +177,9 @@
       "en": "Pastéis de Belém is a historic bakery in Lisbon known worldwide for its original recipe custard tarts, dating back to the 19th century. Located in the Belém district near major landmarks, it attracts both locals and tourists who come to taste the freshly baked pastries served warm with powdered sugar and cinnamon. The establishment preserves traditional Portuguese baking methods and offers a unique glimpse into Lisbon’s culinary heritage.",
       "pt": "A Pastéis de Belém é uma pastelaria histórica em Lisboa, conhecida mundialmente pelos seus pastéis de nata de receita original, datados do século XIX. Localizada no bairro de Belém, perto de importantes monumentos, atrai tanto locais como turistas que vêm provar os pastéis acabados de sair do forno, servidos quentes com açúcar em pó e canela. O espaço preserva métodos tradicionais de confeção e oferece um vislumbre único da herança gastronómica de Lisboa."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-pasteis-de-belem-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-pasteis-de-belem-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-pasteis-de-belem-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-pasteis-de-belem-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-pasteis-de-belem-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-pasteis-de-belem-bg.jpg",
     "category": {
       "en": "Bakery",
       "pt": "Pastelaria"
@@ -204,9 +204,9 @@
       "en": "A Cevicheria is a contemporary restaurant in Lisbon created by chef Kiko Martins, focused on fresh seafood with a Peruvian influence, especially ceviche. Known for its signature octopus hanging sculpture and stylish interior, the restaurant offers a creative menu combining global flavors with Portuguese ingredients. It is a popular spot in the Príncipe Real area, attracting both locals and visitors looking for a modern dining experience with high-quality seafood dishes.",
       "pt": "A Cevicheria é um restaurante contemporâneo em Lisboa criado pelo chef Kiko Martins, focado em marisco fresco com influência peruana, especialmente ceviche. Conhecido pela sua icónica escultura de polvo suspensa e pelo interior moderno, o restaurante apresenta um menu criativo que combina sabores globais com ingredientes portugueses. É um espaço popular na zona do Príncipe Real, atraindo tanto locais como visitantes que procuram uma experiência gastronómica moderna com pratos de elevada qualidade."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-cevicheria-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-cevicheria-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-a-cevicheria-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-cevicheria-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-cevicheria-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-a-cevicheria-bg.jpg",
     "category": {
       "en": "Seafood",
       "pt": "Marisco"
@@ -231,9 +231,9 @@
       "en": "Time Out Market Lisbon, located in Mercado da Ribeira at Cais do Sodré, is a vibrant food hall featuring a curated selection of some of Lisbon’s best chefs and restaurants. Opened in 2014, it brings together a wide variety of culinary options ranging from traditional Portuguese dishes to international cuisine, including seafood, steaks, sushi, and desserts. It is a lively and modern space where visitors can enjoy high-quality food in a communal dining environment.",
       "pt": "O Time Out Market Lisboa, localizado no Mercado da Ribeira no Cais do Sodré, é um espaço gastronómico vibrante que reúne uma seleção dos melhores chefs e restaurantes de Lisboa. Inaugurado em 2014, oferece uma grande variedade de opções culinárias que vão da cozinha tradicional portuguesa à internacional, incluindo marisco, carnes, sushi e sobremesas. É um espaço moderno e dinâmico onde os visitantes podem desfrutar de comida de elevada qualidade num ambiente de partilha."
     },
-    "image": "../src/assets/images/desktop/lisbon/places/lisbon-ribeira-market-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/places/lisbon-guide-ribeira-market-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/places/lisbon-guide-ribeira-market-bg.jpeg",
+    "image": "../../assets/images/desktop/lisbon/places/lisbon-ribeira-market-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/places/lisbon-guide-ribeira-market-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/places/lisbon-guide-ribeira-market-bg.jpeg",
     "category": {
       "en": "Food Hall",
       "pt": "Mercado Gastronómico"
@@ -258,9 +258,9 @@
       "en": "A Travessa do Fado is a traditional Fado venue in Lisbon known for its authentic atmosphere, where visitors can enjoy live Fado performances alongside classic Portuguese cuisine. Located in one of Lisbon’s historic neighborhoods near the Fado Museum, it offers an intimate setting that reflects the cultural essence of Fado. The combination of music, food, and ambiance makes it a memorable experience for those seeking a genuine taste of Portuguese tradition.",
       "pt": "A Travessa do Fado é um espaço tradicional de fado em Lisboa, conhecido pelo seu ambiente autêntico, onde os visitantes podem desfrutar de atuações de fado ao vivo acompanhadas de cozinha portuguesa clássica. Situado num dos bairros históricos de Lisboa, perto do Museu do Fado, oferece um ambiente intimista que reflete a essência cultural do fado. A combinação de música, gastronomia e ambiente torna a experiência memorável para quem procura uma vivência genuína da tradição portuguesa."
     },
-    "image": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-thumb-nail.jpg",
-    "image_bg": "../src/assets/images/desktop/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-bg.jpg",
-    "image_bg_mobile": "../src/assets/images/mobile/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-bg.jpg",
+    "image": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/lisbon/to-eat/lisbon-guide-a-travessa-do-fado-bg.jpg",
     "category": {
       "en": "Fado House",
       "pt": "Casa de Fado"

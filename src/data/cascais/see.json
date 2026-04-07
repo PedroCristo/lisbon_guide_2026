@@ -15,9 +15,9 @@
       "en": "Cascais Marina is a contemporary marina located along the Cascais coastline, known for its elegant waterfront setting and nautical lifestyle. It hosts numerous yachts and boats and is surrounded by restaurants, cafes, and leisure spaces. The marina is a popular spot for walking, dining, and enjoying views of the Atlantic Ocean, making it one of the key attractions in Cascais for both visitors and locals.",
       "pt": "A Marina de Cascais é uma marina moderna localizada ao longo da costa de Cascais, conhecida pelo seu ambiente elegante à beira-mar e estilo de vida náutico. Alberga numerosos iates e embarcações e está rodeada por restaurantes, cafés e espaços de lazer. A marina é um local popular para passeios, refeições e para apreciar as vistas sobre o Oceano Atlântico, sendo uma das principais atrações de Cascais tanto para visitantes como para locais."
     },
-    "image": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-thumb-nail.jpg",
-    "image_bg": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
-    "image_bg_mobile": "../../src/assets/images/mobile/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
+    "image": "../../assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/cascais/places/lisbon-guide-cascais-marina-bg.jpg",
     "category": {
       "en": "Marina",
       "pt": "Marina"
@@ -42,9 +42,9 @@
       "en": "Museu Condes de Castro Guimarães is located in a picturesque palace built in the early 20th century in Cascais. The building combines romantic and neo-Gothic architectural styles and overlooks the sea and Santa Marta Bay. Inside, the museum features a rich collection of art, furniture, ceramics, and rare manuscripts. The surrounding gardens and coastal views make it one of the most beautiful cultural landmarks in Cascais, offering both historical insight and scenic surroundings.",
       "pt": "O Museu Condes de Castro Guimarães está localizado num palácio pitoresco construído no início do século XX em Cascais. O edifício combina estilos arquitetónicos românticos e neogóticos e tem vista para o mar e para a Baía de Santa Marta. No interior, o museu apresenta uma rica coleção de arte, mobiliário, cerâmica e manuscritos raros. Os jardins envolventes e as vistas costeiras tornam-no num dos mais belos marcos culturais de Cascais, oferecendo tanto valor histórico como paisagístico."
     },
-    "image": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-thumb-nail.jpg",
-    "image_bg": "../../src/assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
-    "image_bg_mobile": "../../src/assets/images/mobile/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
+    "image": "../../assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-thumb-nail.jpg",
+    "image_bg": "../../assets/images/desktop/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
+    "image_bg_mobile": "../../assets/images/mobile/cascais/places/lisbon-guide-cascais-museu-condes-castro-guimaraes-bg.jpg",
     "category": {
       "en": "Museum",
       "pt": "Museu"

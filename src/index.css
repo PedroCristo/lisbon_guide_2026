@@ -37,6 +37,7 @@
 
   .explore-card {
     padding: 0 !important;
+    background-image: url(../public/assets/images/desktop/lisbon/places/);
   }
 }
 
