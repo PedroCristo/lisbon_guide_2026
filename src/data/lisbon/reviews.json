@@ -14,20 +14,6 @@
     "image": "../assets/images/reviews/lisbon-guide-review-1.png"
   },
   {
-    "id": "2",
-    "name": "Michael Turner",
-    "city": {
-      "en": "California",
-      "PT": "California"
-    },
-    "rating": 5,
-    "review": {
-      "en": "The restaurant recommendations were amazing!",
-      "pt": "As recomendações de restaurantes foram incríveis!"
-    },
-    "image": "../assets/images/reviews/lisbon-guide-review-3.png"
-  },
-  {
     "id": "3",
     "name": "Olivia Martin",
     "city": {
@@ -54,5 +40,19 @@
       "pt": "Guia de Lisboa claro e muito útil."
     },
     "image": "../assets/images/reviews/lisbon-guide-review-4.png"
+  },
+  {
+    "id": "4",
+    "name": "Michael Turner",
+    "city": {
+      "en": "Paris",
+      "pt": "California"
+    },
+    "rating": 4,
+    "review": {
+      "en": "The restaurant recommendations were amazing!",
+      "pt": "As recomendações de restaurantes foram incríveis!"
+    },
+    "image": "../assets/images/reviews/lisbon-guide-review-3.png"
   }
 ]
