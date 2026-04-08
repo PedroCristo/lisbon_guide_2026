@@ -102,7 +102,7 @@
       "email": "Por favor, insira um e-mail válido",
       "send_btn": "Enviar Mensagem",
       "message_success": "Obrigado pela sua mensagem! Entraremos em contacto em breve.",
-      "captcha_required": "Por favor confirma que não és um robôeeee"
+      "captcha_required": "Por favor confirma que não és um robô"
     }
   },
   "footer": {
