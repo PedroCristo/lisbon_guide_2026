@@ -95,12 +95,14 @@
       "message": "Mensagem",
       "submit": "Enviar Mensagem",
       "success": "Mensagem enviada com sucesso!",
-      "success_subtitle": "Entraremos em contacto o mais breve possível.",
-      "recaptcha": "Não sou um robô"
+      "success_subtitle": "Entraremos em contacto o mais breve possível."
     },
     "validation": {
       "required": "Este campo é obrigatório",
-      "email": "Por favor, insira um e-mail válido"
+      "email": "Por favor, insira um e-mail válido",
+      "send_btn": "Enviar Mensagem",
+      "message_success": "Obrigado pela sua mensagem! Entraremos em contacto em breve.",
+      "captcha_required": "Por favor confirma que não és um robôeeee"
     }
   },
   "footer": {

@@ -1,48 +1,82 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
-import { Send, MapPin, Phone, Mail, Building } from 'lucide-react';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
+import { Send, MapPin, Mail, Building } from "lucide-react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language.startsWith("pt") ? "pt" : "en";
+
   const [formData, setFormData] = React.useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
+
   const [errors, setErrors] = React.useState<Record<string, string>>({});
   const [submitted, setSubmitted] = React.useState(false);
+  const [captchaValue, setCaptchaValue] = React.useState<string | null>(null);
 
   const validate = () => {
     const newErrors: Record<string, string> = {};
-    if (!formData.name) newErrors.name = t('contact.validation.required');
+
+    if (!formData.name) newErrors.name = t("contact.validation.required");
+
     if (!formData.email) {
-      newErrors.email = t('contact.validation.required');
+      newErrors.email = t("contact.validation.required");
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = t('contact.validation.email');
+      newErrors.email = t("contact.validation.email");
     }
-    if (!formData.subject) newErrors.subject = t('contact.validation.required');
-    if (!formData.message) newErrors.message = t('contact.validation.required');
+
+    if (!formData.subject) newErrors.subject = t("contact.validation.required");
+    if (!formData.message) newErrors.message = t("contact.validation.required");
+    if (!captchaValue) newErrors.captcha = t("contact.validation.required");
+
     return newErrors;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault(); // Always prevent default first
+
     const newErrors = validate();
-    if (Object.keys(newErrors).length === 0) {
-      console.log('Form submitted:', formData);
-      setSubmitted(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setTimeout(() => setSubmitted(false), 5000);
-    } else {
+    if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
+      return;
+    }
+
+    try {
+      await fetch("https://formsubmit.co/ajax/media.info.creations@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          _subject: "Lisbon Guide - Contact Form",
+          _template: "table",
+          _captcha: "false",
+        }),
+      });
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error("Failed to send:", err);
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
+
     setFormData((prev) => ({ ...prev, [name]: value }));
+
     if (errors[name]) {
       setErrors((prev) => {
         const next = { ...prev };
@@ -55,163 +89,161 @@ const Contact = () => {
   return (
     <div className="pt-32 pb-24 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">
-          {t('contact.title')}
+        <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4">
+          {t("contact.title")}
         </h1>
-        <p className="text-gray-500 max-w-lg mx-auto">{t('contact.subtitle')}</p>
-        <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full mt-6" />
+        <p className="text-gray-500 max-w-lg mx-auto">
+          {t("contact.subtitle")}
+        </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* Left Side: Company Info */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        {/* LEFT SIDE */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="bg-gray-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl"
+          className="bg-gray-900 text-white rounded-3xl p-8"
         >
           <div className="flex items-center space-x-3 mb-8">
             <Building className="text-orange-500" size={32} />
-            <h2 className="text-2xl font-bold tracking-tight">{t('contact.info.company')}</h2>
+            <h2 className="text-2xl font-bold">{t("contact.info.company")}</h2>
           </div>
-          
-          <p className="text-gray-400 text-lg leading-relaxed mb-12">
-            {t('contact.info.description')}
-          </p>
 
-          <div className="space-y-8">
-            <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
-                <MapPin size={20} />
-              </div>
-              <div>
-                <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t('contact.info.labels.address')}</p>
-                <p className="text-white">{t('contact.info.address')}</p>
-              </div>
+          <p className="text-gray-400 mb-12">{t("contact.info.description")}</p>
+
+          <div className="space-y-6">
+            <div className="flex space-x-4">
+              <MapPin className="text-orange-500" />
+              <p>{t("contact.info.address")}</p>
             </div>
-{/* 
-            <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
-                <Phone size={20} />
-              </div>
-              <div>
-                <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t('contact.info.labels.phone')}</p>
-                <p className="text-white">{t('contact.info.phone')}</p>
-              </div>
-            </div> */}
 
-            <div className="flex items-start space-x-4">
-              <div className="mt-1 p-2 bg-white/10 rounded-lg text-orange-500">
-                <Mail size={20} />
-              </div>
-              <div>
-                <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">{t('contact.info.labels.email')}</p>
-                <p className="text-white">{t('contact.info.email')}</p>
-              </div>
+            <div className="flex space-x-4">
+              <Mail className="text-orange-500" />
+              <p>{t("contact.info.email")}</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Right Side: Contact Form */}
+        {/* RIGHT SIDE */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100"
+          className="bg-white rounded-3xl p-8 shadow-xl"
         >
           {submitted ? (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="bg-green-50 border border-green-100 text-green-700 p-8 rounded-2xl text-center"
-            >
-              <p className="font-bold text-xl mb-2">{t('contact.form.success')}</p>
-              <p className="text-sm">{t('contact.form.success_subtitle')}</p>
-            </motion.div>
+            <div className="bg-green-100 border border-green-300 text-green-800 text-center font-semibold text-lg p-6 rounded-xl">
+              {t("contact.validation.message_success")}
+            </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form
+              onSubmit={handleSubmit}
+              action="https://formsubmit.co/media.info.creations@gmail.com"
+              method="POST"
+              className="space-y-6"
+            >
+              {/* FormSubmit config */}
+              <input
+                type="hidden"
+                name="_subject"
+                value="Lisbon Guide - Contact Form"
+              />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="true" />
+              <input type="hidden" name="_next" value="localhost:3000" />
+
+              {/* Name + Email */}
+              <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-2">
-                    {t('contact.form.name')}
-                  </label>
                   <input
                     type="text"
-                    id="name"
                     name="name"
+                    required
+                    placeholder={t("contact.form.name")}
                     value={formData.name}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl border ${
-                      errors.name ? 'border-red-500' : 'border-gray-200'
-                    } focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all`}
+                    className="w-full border p-3 rounded-xl focus:outline-none border-gray-200"
                   />
-                  {errors.name && <p className="mt-1 text-[10px] text-red-500 font-bold uppercase">{errors.name}</p>}
+                  {errors.name && (
+                    <p className="text-xs text-red-500">{errors.name}</p>
+                  )}
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-2">
-                    {t('contact.form.email')}
-                  </label>
                   <input
                     type="email"
-                    id="email"
                     name="email"
+                    required
+                    placeholder={t("contact.form.email")}
                     value={formData.email}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl border ${
-                      errors.email ? 'border-red-500' : 'border-gray-200'
-                    } focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all`}
+                    className="w-full border p-3 rounded-xl focus:outline-none border-gray-200"
                   />
-                  {errors.email && <p className="mt-1 text-[10px] text-red-500 font-bold uppercase">{errors.email}</p>}
+                  {errors.email && (
+                    <p className="text-xs text-red-500">{errors.email}</p>
+                  )}
                 </div>
               </div>
 
-              <div>
-                <label htmlFor="subject" className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-2">
-                  {t('contact.form.subject')}
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className={`w-full px-4 py-3 rounded-xl border ${
-                    errors.subject ? 'border-red-500' : 'border-gray-200'
-                  } focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all`}
+              {/* Subject */}
+              <input
+                type="text"
+                name="subject"
+                required
+                placeholder={t("contact.form.subject")}
+                value={formData.subject}
+                onChange={handleChange}
+                className="w-full border p-3 rounded-xl focus:outline-none border-gray-200"
+              />
+              {errors.subject && (
+                <p className="text-xs text-red-500">{errors.subject}</p>
+              )}
+
+              {/* Message */}
+              <textarea
+                name="message"
+                required
+                placeholder={t("contact.form.message")}
+                rows={4}
+                value={formData.message}
+                onChange={handleChange}
+                className="w-full border p-3 rounded-xl focus:outline-none border-gray-200"
+              />
+              {errors.message && (
+                <p className="text-xs text-red-500">{errors.message}</p>
+              )}
+
+              {/* reCAPTCHA */}
+              <div className="flex justify-center">
+                <ReCAPTCHA
+                  key={currentLang}
+                  sitekey="6Le6x6wsAAAAAM8X0IcCJ-07I6bCxFPDY27JFb9O"
+                  onChange={(value) => setCaptchaValue(value)}
+                  hl={currentLang}
                 />
-                {errors.subject && <p className="mt-1 text-[10px] text-red-500 font-bold uppercase">{errors.subject}</p>}
               </div>
+              {errors.captcha && (
+                <p className="text-xs text-red-500 text-center">
+                  {t("contact.validation.captcha_required")}
+                </p>
+              )}
 
-              <div>
-                <label htmlFor="message" className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-2">
-                  {t('contact.form.message')}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={4}
-                  value={formData.message}
-                  onChange={handleChange}
-                  className={`w-full px-4 py-3 rounded-xl border ${
-                    errors.message ? 'border-red-500' : 'border-gray-200'
-                  } focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all`}
-                />
-                {errors.message && <p className="mt-1 text-[10px] text-red-500 font-bold uppercase">{errors.message}</p>}
-              </div>
-
-              {/* Mock reCAPTCHA */}
-              <div className="flex items-center space-x-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                <input type="checkbox" id="recaptcha" className="w-5 h-5 rounded border-gray-300 text-orange-500 focus:ring-orange-500" />
-                <label htmlFor="recaptcha" className="text-sm text-gray-600 font-medium">{t('contact.form.recaptcha')}</label>
-                <div className="flex-grow" />
-                <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" className="w-6 h-6 opacity-50" />
-              </div>
-
+              {/* Submit */}
               <button
                 type="submit"
-                className="w-full flex items-center justify-center space-x-2 py-4 bg-slate-900 text-white font-bold rounded-xl hover:bg-slate-800 transition-all shadow-lg hover:shadow-slate-900/20"
+                // disabled={!captchaValue}
+                className={`w-full flex justify-center items-center space-x-2 py-3 rounded-xl relative overflow-hidden group cursor-pointer focus:outline-none focus:ring-2 focus:ring-orange-300 ${
+                  !captchaValue
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-orange-500 text-white"
+                }`}
               >
-                <span>{t('contact.form.submit')}</span>
-                <Send size={18} />
+                {/* Overlay */}
+                <span className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+
+                <span className="relative z-10 flex items-center space-x-2">
+                  <span>{t("contact.validation.send_btn")}</span>
+                  <Send size={18} />
+                </span>
               </button>
             </form>
           )}

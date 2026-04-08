@@ -97,12 +97,15 @@
       "message": "Message",
       "submit": "Send Message",
       "success": "Message sent successfully!",
-      "success_subtitle": "We'll get back to you as soon as possible.",
-      "recaptcha": "I'm not a robot"
+      "success_subtitle": "We'll get back to you as soon as possible."
     },
     "validation": {
       "required": "This field is required",
-      "email": "Please enter a valid email"
+      "email": "Please enter a valid email",
+      "send_btn": "Send Message",
+      "message_success": "Thanks for your message! We'll get back to you soon.",
+      "captcha_required": "Please confirm you are not a robot"
+
     }
   },
   "footer": {
