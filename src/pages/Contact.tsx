@@ -102,7 +102,7 @@ const Contact = () => {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="bg-gray-900 text-white rounded-3xl p-8"
+          className="contact-details bg-gray-900 text-white rounded-3xl p-8 shadow-xl"
         >
           <div className="flex items-center space-x-3 mb-8">
             <Building className="text-orange-500" size={32} />

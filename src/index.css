@@ -27,13 +27,26 @@
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* 404 Page Background */
 .page404 {
   background-image: url(../public/assets/images/desktop/lisbon/places/lisbon-guide-jeronimos-monestery-bg-2.jpeg)
+}
+
+/* Contact */
+.contact-details {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("../public/assets/images/desktop/lisbon/places/lisbon-rua-augusta-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 640px) {
@@ -45,5 +58,3 @@
     padding: 0 !important;
   }
 }
-
-
