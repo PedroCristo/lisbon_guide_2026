@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Home -->
   <url>
     <loc>https://lisbonguide.site/</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <!-- Main sections -->
   <url>
     <loc>https://lisbonguide.site/explore</loc>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://lisbonguide.site/where-to-eat</loc>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <!-- Area pages -->
   <url>
     <loc>https://lisbonguide.site/around-lisbon</loc>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <url>
-    <loc>https://lisbonguide.site/cascais</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
+    <loc>https://lisbonguide.site/cascais/see</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
-
   <url>
-    <loc>https://lisbonguide.site/sintra</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
+    <loc>https://lisbonguide.site/cascais/eat</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lisbonguide.site/sintra/see</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lisbonguide.site/sintra/eat</loc>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <!-- Static pages -->
   <url>
     <loc>https://lisbonguide.site/about</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
   <url>
     <loc>https://lisbonguide.site/contact</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-09T00:00:00+00:00</lastmod>
   </url>
 
 </urlset>
