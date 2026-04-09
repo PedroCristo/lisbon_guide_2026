@@ -13,10 +13,8 @@ export default defineConfig(({ mode }) => {
      sitemap({
       hostname: 'https://lisbonguide.site',
       dynamicRoutes: [
-        '/',
         '/explore',
         '/where-to-eat',
-        '/around-lisbon',
         '/cascais/see',
         '/cascais/eat',
         '/sintra/see',
