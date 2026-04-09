@@ -216,7 +216,7 @@ const Contact = () => {
               <div className="flex justify-center">
                 <ReCAPTCHA
                   key={currentLang}
-                  sitekey={import.meta.env.VITE_TECAPTCHA_SITE_KEY}
+                  sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                   onChange={(value) => setCaptchaValue(value)}
                   hl={currentLang}
                 />
