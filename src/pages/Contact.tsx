@@ -87,7 +87,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-32 pb-24 px-4 max-w-7xl mx-auto">
+    <div className="container-500px pt-32 pb-24 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-4">
           {t("contact.title")}
@@ -128,7 +128,7 @@ const Contact = () => {
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="bg-white rounded-3xl p-8 shadow-xl"
+          className="bg-white rounded-3xl p-8 shadow-xl container-500px"
         >
           {submitted ? (
             <div className="bg-green-100 border border-green-300 text-green-800 text-center font-semibold text-lg p-6 rounded-xl">
@@ -139,7 +139,7 @@ const Contact = () => {
               onSubmit={handleSubmit}
               action="https://formsubmit.co/media.info.creations@gmail.com"
               method="POST"
-              className="space-y-6"
+              className="space-y-6 "
             >
               {/* FormSubmit config */}
               <input

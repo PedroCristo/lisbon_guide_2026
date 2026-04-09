@@ -58,3 +58,9 @@
     padding: 0 !important;
   }
 }
+
+@media only screen and (max-width: 500px) {
+ .container-500px {
+    padding: 5rem 0.2rem 2rem !important;
+  }
+}
