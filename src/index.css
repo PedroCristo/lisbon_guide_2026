@@ -68,3 +68,22 @@ html {
     padding: 5rem 0.2rem 2rem !important;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .reviews  {
+   margin-top: -150px;
+  }
+
+  .reviews .reviews-card {
+    padding: 0 15px !important;
+  }
+
+  .reviews .reviews-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .reviews .reviews-card p {
+    font-size: 14px !important;
+  }
+}

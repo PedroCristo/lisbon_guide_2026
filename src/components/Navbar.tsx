@@ -160,9 +160,9 @@ const Navbar = () => {
               {t('nav.contact')}
             </Link>
             <Link
-              to="/terms-condicionos"
+              to="/terms-conditions"
               className={`text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
-                location.pathname === '/terms-condicionos' 
+                location.pathname === '/terms-conditions' 
                   ? 'text-orange-500' 
                   : isTransparent ? 'text-white' : 'text-gray-600'
               }`}
@@ -261,6 +261,15 @@ const Navbar = () => {
                 }`}
               >
                 {t('nav.contact')}
+              </Link>
+              <Link
+                to="/terms-conditions"
+                onClick={() => setIsOpen(false)}
+                className={`block px-3 py-2 text-base font-medium ${
+                  location.pathname === '/terms-conditions' ? 'text-orange-500' : 'text-gray-600'
+                }`}
+              >
+                {t('nav.terms')}
               </Link>
 
               <button

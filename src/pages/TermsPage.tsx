@@ -19,7 +19,7 @@ const Legal = () => {
       <hr className="my-10 border-gray-300" />
 
       {/* Navigation */}
-      <div className="flex gap-6 mb-12">
+      <div className="flex gap-6 mb-12 flex-col-reverse md:flex-row">
         <a
           href="#privacy"
           className="text-gray-600 hover:text-black transition-colors duration-200"

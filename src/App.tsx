@@ -56,7 +56,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
 
             {/* Legal Page */}
-            <Route path="/terms-condicionos" element={<TermsPage />} />
+            <Route path="/terms-conditions" element={<TermsPage />} />
           </Routes>
         </main>
         <Footer />

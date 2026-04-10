@@ -21,7 +21,7 @@ const ReviewsCarousel = () => {
   }, []);
 
   return (
-    <section className="py-24 bg-slate-50 overflow-hidden">
+    <section className="reviews py-24 bg-slate-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
@@ -38,7 +38,7 @@ const ReviewsCarousel = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.5 }}
-              className="absolute inset-0 bg-white p-8 md:p-12 rounded-[32px] shadow-xl shadow-slate-200/50 flex flex-col justify-center"
+              className="reviews-card absolute inset-0 bg-white p-8 md:p-12 rounded-[32px] shadow-xl shadow-slate-200/50 flex flex-col justify-center"
             >
               <div className="absolute -top-4 right-8 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white shadow-lg">
                 <Quote size={24} fill="currentColor" />
@@ -48,7 +48,7 @@ const ReviewsCarousel = () => {
                 <img
                   src={currentReview.image}
                   alt={currentReview.name}
-                  className="w-30 h-30 rounded-full object-cover border-4 border-orange-100 shadow-md"
+                  className="reviews-image w-30 h-30 rounded-full object-cover border-4 border-orange-100 shadow-md"
                   referrerPolicy="no-referrer"
                 />
                 <div>
