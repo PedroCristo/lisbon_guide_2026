@@ -5,6 +5,10 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     -webkit-font-smoothing: antialiased;
@@ -60,7 +64,7 @@
 }
 
 @media only screen and (max-width: 500px) {
- .container-500px {
+  .container-500px {
     padding: 5rem 0.2rem 2rem !important;
   }
 }

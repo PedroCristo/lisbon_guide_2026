@@ -159,6 +159,16 @@ const Navbar = () => {
             >
               {t('nav.contact')}
             </Link>
+            <Link
+              to="/terms-condicionos"
+              className={`text-sm font-medium transition-all duration-300 hover:text-orange-500 ${
+                location.pathname === '/terms-condicionos' 
+                  ? 'text-orange-500' 
+                  : isTransparent ? 'text-white' : 'text-gray-600'
+              }`}
+            >
+              {t('nav.terms')}
+            </Link>
 
             <button
               onClick={toggleLanguage}

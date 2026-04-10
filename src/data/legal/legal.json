@@ -1,0 +1,132 @@
+{
+  "legal": {
+    "title": {
+      "en": "Legal Information",
+      "pt": "Informação Legal"
+    },
+    "content": {
+      "en": "All legal information regarding privacy, cookies, and terms of use.",
+      "pt": "Toda a informação legal relativa a privacidade, cookies e termos de utilização."
+    },
+    "lastUpdate": {
+      "en": "Last Update: April 4, 2026",
+      "pt": "Última Atualização: 4 de Abril de 2026"
+    },
+    "nav": {
+      "privacy": {
+        "en": "Privacy Policy",
+        "pt": "Política de Privacidade"
+      },
+      "cookies": {
+        "en": "Cookie Policy",
+        "pt": "Política de Cookies"
+      },
+      "terms": {
+        "en": "Terms & Conditions",
+        "pt": "Termos e Condições"
+      }
+    },
+
+    "howWeAre": {
+        "title": {
+            "en": "Who We Are",
+            "pt": "Quem Somos"
+        },
+        "content": {
+            "en": [
+                "Lisbon Guide is a digital travel and city guide platform dedicated to helping visitors and locals discover the best of Lisbon and its surrounding areas, including Cascais and Sintra.",
+                "We provide curated information about places to visit, where to eat, and what to experience, presented in a clear and accessible way.",
+                "Our goal is to simplify travel planning by offering reliable, well-organized, and up-to-date content.",
+                "Lisbon Guide is designed for modern users who want to explore the region efficiently while finding both popular highlights and hidden gems.",
+                "We aim to deliver a user-friendly experience that makes discovering Lisbon intuitive, enjoyable, and inspiring."
+            ],
+            "pt": [
+                "O Lisbon Guide é uma plataforma digital de guia turístico dedicada a ajudar visitantes e locais a descobrir o melhor de Lisboa e das suas áreas envolventes, incluindo Cascais e Sintra.",
+                "Disponibilizamos informação selecionada sobre locais a visitar, onde comer e o que experienciar, apresentada de forma clara e acessível.",
+                "O nosso objetivo é simplificar o planeamento de viagens, oferecendo conteúdo fiável, organizado e atualizado.",
+                "O Lisbon Guide foi concebido para utilizadores modernos que pretendem explorar a região de forma eficiente, encontrando tanto pontos turísticos populares como locais menos conhecidos.",
+                "Procuramos proporcionar uma experiência intuitiva e agradável que torne a descoberta de Lisboa mais simples e inspiradora."
+            ]
+        }
+    },
+    "privacy": {
+      "title": {
+        "en": "Privacy Policy",
+        "pt": "Política de Privacidade"
+      },
+      "content": {
+        "en": [
+          "We respect your privacy and are committed to protecting your personal data.",
+          "We may collect personal information such as name, email address, and usage data when voluntarily provided.",
+          "Data is used to improve website functionality, user experience, and analytics.",
+          "We do not sell, rent, or share your personal data with third parties without consent, except when required by law.",
+          "We implement reasonable security measures to protect your information.",
+          "You have the right to request access, correction, or deletion of your personal data.",
+          "By using this website, you agree to the collection and use of information in accordance with this policy."
+        ],
+        "pt": [
+          "Respeitamos a sua privacidade e estamos comprometidos em proteger os seus dados pessoais.",
+          "Podemos recolher informações como nome, email e dados de utilização quando fornecidos voluntariamente.",
+          "Os dados são utilizados para melhorar a funcionalidade do site, a experiência do utilizador e análises.",
+          "Não vendemos, alugamos ou partilhamos os seus dados pessoais com terceiros sem consentimento, exceto quando exigido por lei.",
+          "Implementamos medidas de segurança razoáveis para proteger as suas informações.",
+          "Tem o direito de solicitar acesso, correção ou eliminação dos seus dados pessoais.",
+          "Ao utilizar este site, concorda com a recolha e utilização de informação conforme esta política."
+        ]
+      }
+    },
+    "cookies": {
+      "title": {
+        "en": "Cookie Policy",
+        "pt": "Política de Cookies"
+      },
+      "content": {
+        "en": [
+          "This website uses cookies to enhance user experience and analyze traffic.",
+          "Cookies are small text files stored on your device by your browser.",
+          "We use essential cookies for basic functionality and optional cookies for analytics.",
+          "Non-essential cookies will only be used with your consent.",
+          "You can manage or disable cookies through your browser settings.",
+          "Disabling cookies may affect the functionality of some parts of the website.",
+          "We may use third-party services (e.g., analytics tools) that set their own cookies."
+        ],
+        "pt": [
+          "Este site utiliza cookies para melhorar a experiência do utilizador e analisar o tráfego.",
+          "Os cookies são pequenos ficheiros de texto armazenados no seu dispositivo pelo navegador.",
+          "Utilizamos cookies essenciais para funcionamento básico e cookies opcionais para análise.",
+          "Cookies não essenciais apenas serão utilizados com o seu consentimento.",
+          "Pode gerir ou desativar cookies através das definições do seu navegador.",
+          "Desativar cookies pode afetar o funcionamento de algumas partes do site.",
+          "Podemos utilizar serviços de terceiros (ex: ferramentas de análise) que definem os seus próprios cookies."
+        ]
+      }
+    },
+
+    "terms": {
+      "title": {
+        "en": "Terms and Conditions",
+        "pt": "Termos e Condições"
+      },
+      "content": {
+        "en": [
+          "By accessing and using this website, you agree to be bound by these terms.",
+          "All content is provided for informational purposes only and may be updated without notice.",
+          "We do not guarantee the accuracy, completeness, or reliability of the information provided.",
+          "External links may lead to third-party websites; we are not responsible for their content or practices.",
+          "Users agree not to misuse the website or attempt unauthorized access to systems.",
+          "We reserve the right to modify or discontinue any part of the website at any time.",
+          "Continued use of the website constitutes acceptance of any updated terms."
+        ],
+        "pt": [
+          "Ao aceder e utilizar este site, concorda em cumprir estes termos.",
+          "Todo o conteúdo é fornecido apenas para fins informativos e pode ser atualizado sem aviso prévio.",
+          "Não garantimos a precisão, integridade ou fiabilidade das informações fornecidas.",
+          "Links externos podem direcionar para sites de terceiros; não somos responsáveis pelo seu conteúdo ou práticas.",
+          "Os utilizadores concordam em não fazer uso indevido do site ou tentar acesso não autorizado aos sistemas.",
+          "Reservamo-nos o direito de modificar ou descontinuar qualquer parte do site a qualquer momento.",
+          "A utilização contínua do site constitui aceitação dos termos atualizados."
+        ]
+      }
+    }
+  }
+}

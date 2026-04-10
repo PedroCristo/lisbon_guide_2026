@@ -81,6 +81,14 @@ const Footer = () => {
                   {t("nav.contact")}
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/terms-condicionos"
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  {t("nav.terms")}
+                </Link>
+              </li>
             </ul>
           </div>
 

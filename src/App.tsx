@@ -18,6 +18,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import LocationPage from "./pages/LocationPage";
 import NotFound from "./pages/error/NotFound";
+import TermsPage from "./pages/TermsPage";
 
 import Preloader from "./components/utils/Preloader";
 
@@ -53,6 +54,9 @@ export default function App() {
             <Route path="/around/:location/:type" element={<LocationPage />} />
             {/* 404 fallback */}
             <Route path="*" element={<NotFound />} />
+
+            {/* Legal Page */}
+            <Route path="/terms-condicionos" element={<TermsPage />} />
           </Routes>
         </main>
         <Footer />
