@@ -43,6 +43,7 @@ The goal is to simplify trip planning and enhance the visitor experience in Lisb
 - Styling: CSS / Tailwind 
 - Data: Static JSON or API-based content
 - Deployment: Vercel / Netlify / Custom hosting
+- Code Editor: VS Code
 
 ---
 
